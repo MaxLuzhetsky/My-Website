@@ -1,0 +1,19 @@
+div.container-header {
+    background-image: url(../images/productlogos/backgrounds/backgroundheader.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+h1 {
+    color: orange;
+}
+header {
+    display: flex ;
+    flex-direction: row;
+}
+nav {
+    display: flex;
+}

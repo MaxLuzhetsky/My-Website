@@ -6,15 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Development Studio Website Template Demo</title>
+    <link rel="stylesheet" href="css/index.css">
 
 </head>
 
 <body>
-    <div class="page1div">
+    <div class="container-header" id="header-anchor">
         <header>
             <div class="header-elements">
                 <nav>
-                    <a class="logo" href="#page1">
+                    <a class="logo" href="#header-anchor">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="258px"
                             height="172px" viewBox="0 0 258 172" version="1.1">
                             <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
@@ -86,7 +87,7 @@
                         </svg>
                     </a>
                 </nav>
-                <nav>
+                <nav class="header-nav-buttons">
                     <ul class="nav">
                         <li><a class="aboutus" href="#aboutus">-About Us</a></li>
                         <li><a class="newmobilegames" href="#newmobilegames">-New Mobile Games</a></li>
@@ -162,11 +163,11 @@
             <h2>
                 We're not just a company, we're a community of passionate gamers
             </h2>
-            <a class="learnmore" href="">LEARN MORE</a>
+            <a class="first-page-learnmore" href="">LEARN MORE</a>
         </div>
 
     </div><br><br>
-    <div class="page2div">
+    <div class="about-us-page">
         <a id="aboutus">
             <img src="images/image1.webp" alt="img1">
         </a>
@@ -180,7 +181,7 @@
             development company to create and release a specific game, we can be the right choice as we have vast
             experience in this area.
         </p>
-        <div class="stovp">
+        <div class="about-us-column">
             <div class="MGD">
                 <img src="images/mgd.webp" alt="mgd">
                 <h2>
@@ -217,21 +218,21 @@
             </div><br>
         </div>
     </div>
-    <div class="page3div">
-        <h1 class="page3h1">
+    <div class="top-games-page">
+        <h1 class="top-games-page-h1">
             TOP GAMES
         </h1>
         <span>...</span>
-        <h2 class="page3h2">
+        <h2 class="top-games-page-h2">
             Games you just can't stop playing whenever you are.
         </h2>
         <div class="gameslist">
             <ul>
                 <li>
                     <img src="images/game1.webp" alt="game1">
-                    <h2 class="game1h2">Monster Battle</h2>
+                    <h2 class="game-list-h2">Monster Battle</h2>
                     <p><i>Fighting</i></p><br>
-                    <p class="game1p">
+                    <p class="game-list-p">
                         Enjoy this fighting game , choose one of the offered teams , and fight with numerous monsters on
                         the main arena of Arkonium planet.
                     </p>
@@ -252,9 +253,9 @@
                 </li>
                 <li>
                     <img src="images/wildwest.webp" alt="game1">
-                    <h2 class="game1h2">Wild West</h2>
+                    <h2 class="game-list-h2">Wild West</h2>
                     <p><i>Fighting</i></p><br>
-                    <p class="game1p">
+                    <p class="game-list-p">
                         Enjoy this fighting game , choose one of the offered teams , and fight with numerous monsters on
                         the main arena of Arkonium planet.
                     </p>
@@ -275,9 +276,9 @@
                 </li>
                 <li>
                     <img src="images/fishworld.webp" alt="game1">
-                    <h2 class="game1h2">Fish World</h2>
+                    <h2 class="game-list-h2">Fish World</h2>
                     <p><i>Fighting</i></p><br>
-                    <p class="game1p">
+                    <p class="game-list-p">
                         Enjoy this fighting game , choose one of the offered teams , and fight with numerous monsters on
                         the main arena of Arkonium planet.
                     </p>
@@ -300,39 +301,39 @@
             <hr>
         </div>
     </div>
-    <div class="page4div">
-        <h1 class="page4h1">
+    <div class="time-flies-page">
+        <h1 class="time-flies-page-h1">
             Time Flies When You Are Having Fun
         </h1>
         <span>...</span>
-        <h2 class="page4h2">
+        <h2 class="time-flies-page-h2">
             Honestly, we love games as much as you do.
         </h2>
-        <p class="page4p1">
+        <p class="time-flies-page-p">
             Striving to give our fans the opportunity to play games anywhere, anytime, and on any platform, we surround
             ourselves with the most talented and passionate designers, developer, and testers from different cities and
             even countries.
         </p><br>
-        <a class="page4a1" href="">Learn More</a>
+        <a class="time-flies-page-learn-more-bttn" href="">Learn More</a>
     </div>
-    <div class="page5div">
+    <div class="new-mobile-games-page">
         <a id="newmobilegames">
-            <h1 class="page5h1">
+            <h2 class="new-mobile-games-page-h2-tittle">
                 New Mobile Games
-            </h1>
+            </h2>
         </a>
-        <h2 class="page5h2">
+        <h2 class="new-mobile-games-page-h2">
             Looking for a new game to play? Check this out!
         </h2>
         <div class="newgames">
             <!--перша гра-->
-            <div class="page5game1">
+            <div class="new-mobile-games-page-game1">
                 <img src="images/foxgame.webp" alt="foxgame">
-                <h2 class="newgame1">
+                <h2 class="new-mobile-games-page-h2">
                     FEED THE FOX
                 </h2>
                 <p><i>Simulation</i></p>
-                <p class="newgame1p">Your pet is not a kitty or a puppy but a real wild fox . But look how cute it is !
+                <p class="new-mobile-games-page-game1-p">Your pet is not a kitty or a puppy but a real wild fox . But look how cute it is !
                     Take good care of it to keep fox happy.</p>
                 <p>
                     <strong>Platform:</strong> Androis , iOs
@@ -350,13 +351,13 @@
                 <img src="images/appstore.png" width="150" alt="appstore">
             </div>
             <!--друга гра-->
-            <div class="page5game2">
+            <div class="new-mobile-games-page-game2">
                 <img src="images/atlantis.webp" alt="atlantis">
-                <h2 class="newgame2">
+                <h2 class="new-mobile-games-page-h2">
                     Atlantis Ruins
                 </h2>
                 <p><i>Puzzle</i></p>
-                <p class="newgame2p">Countless pirate treasures are hidden in the dephts of the ocean.Solve the puzzle
+                <p class="new-mobile-games-page-game2-p">Countless pirate treasures are hidden in the dephts of the ocean.Solve the puzzle
                     one by one to be first to find the treasures!</p>
                 <p>
                     <strong>Platform:</strong> Androis , iOs
@@ -375,13 +376,13 @@
             </div>
             <!--Третя гра
          -->
-            <div class="page5game3">
+            <div class="new-mobile-games-page-game3">
                 <img src="images/shamans.webp" alt="shamans">
-                <h2 class="newgame3">
+                <h2 class="new-mobile-games-page-h2">
                     Shamans Jungle
                 </h2>
                 <p><i>Simulation</i></p>
-                <p class="newgame3p">Your pet is not a kitty or a puppy but a real wild fox . But look how cute it is !
+                <p class="new-mobile-games-page-game3-p">Your pet is not a kitty or a puppy but a real wild fox . But look how cute it is !
                     Take good care of it to keep fox happy.</p>
                 <p>
                     <strong>Platform:</strong> Androis , iOs
@@ -398,13 +399,13 @@
                 <img src="images/googlebutton.png" alt="google">
                 <img src="images/appstore.png" width="150" alt="appstore">
             </div>
-            <div class="page5game4">
+            <div class="new-mobile-games-page-game4">
                 <img src="images/sweetworld.webp" alt="foxgame">
-                <h2 class="newgame1">
+                <h2 class="new-mobile-games-page-h2">
                     Sweet World
                 </h2>
                 <p><i>Simulation</i></p>
-                <p class="newgame1p">Your pet is not a kitty or a puppy but a real wild fox . But look how cute it is !
+                <p class="new-mobile-games-page-p">Your pet is not a kitty or a puppy but a real wild fox . But look how cute it is !
                     Take good care of it to keep fox happy.</p>
                 <p>
                     <strong>Platform:</strong> Androis , iOs
@@ -424,54 +425,54 @@
         </div>
     </div>
     <hr>
-    <div class="page6div">
+    <div class="our-journer-page">
         <div class="countofgames">
-            <h1 class="page6h1">
+            <h2 class="our-journer-page-h2">
                 Our Journey so Far
             </h1>
-            <h2 class="page6h2">
+            <h3 class="our-journer-page-h3">
                 Our greatest reward is seeing that millions of players choose our games. Here's what we have already
                 achieved.
-            </h2>
+            </h3>
             <!--1-->
-            <div class="numbersgamesandsmth">
-                <div class="page6divdiv">
-                    <p class="page6pn">
+            <div class="our-journer-page-count-of-games-container">
+                <div class="our-journer-page-numbers">
+                    <p class="our-journer-page-pn">
                         174
                     </p>
                     <span>...</span>
-                    <p class="page6pt">
+                    <p class="our-journer-page-pt">
                         Games on App Store
                     </p>
                 </div>
                 <!--2-->
 
-                <div class="page6divdiv">
-                    <p class="page6pn">
+                <div class="our-journer-page-numbers">
+                    <p class="our-journer-page-pn">
                         232
                     </p>
                     <span>...</span>
-                    <p class="page6pt">
+                    <p class="our-journer-page-pt">
                         Games on Google Play
                     </p>
                 </div>
                 <!--3-->
 
-                <div class="page6divdiv">
-                    <p class="page6pn">
+                <div class="our-journer-page-numbers">
+                    <p class="our-journer-page-pn">
                         10000+
                     </p>
                     <span>...</span>
-                    <p class="page6pt">
+                    <p class="our-journer-page-pt">
                         Downloads per month
                     </p>
                 </div>
-                div class="page6divdiv">
-                <p class="page6pn">
+                <div class="our-journer-page-numbers">
+                <p class="our-journer-page-pn">
                     4.8
                 </p>
                 <span>...</span>
-                <p class="page6pt">
+                <p class="our-journer-page-pt">
                     Average rating
                 </p>
             </div>
@@ -480,15 +481,15 @@
 
 
 
-    <div class="page7div">
+    <div class="coming-soon-games-page">
         <div class="comingsoongame">
             <div class="svgcomingsoon">
                 <img src="images/comingsoon.webp" alt="comingsoon">
-                <h2 class="comingsoongame2">
+                <h2 class="coming-soon-games-page-h2">
                     Coming soon in 2021 -Space Adventure
                 </h2>
-                <p><i>Platformer</i></p>
-                <p class="comingsoongame2">Space Adventure will be a brand new colorful cartoonish platformer with
+                <p class="coming-soon-games-page-p-i"><i>Platformer</i></p>
+                <p class="coming-soon-games-page-p">Space Adventure will be a brand new colorful cartoonish platformer with
                     innovative mechanics based on gravity. You play as Hoja, the fearless austronaut. Pre-order the game
                     right now!</p>
                 <p>
@@ -509,24 +510,24 @@
         </div>
     </div>
     <hr>
-    <div class="page8div">
+    <div class="testimonials-page">
         <a id="testimonials">
-            <h1 class="page8h1">
+            <h2 class="testimonials-page-h2">
                 Testimonials
-            </h1>
+            </h2>
         </a>
         <span>
             ...
         </span>
-        <h2 class="page8h2">Here are some of the reviews from our players.</h2>
+        <h3 class="testimonials-page-h3">Here are some of the reviews from our players.</h3>
         <ul>
             <li>
                 <img src="images/playeravatar.webp" alt="avatar">
-                <h2>Kendall Williams, Metacritic</h2>
-                <span>
+                <h4 class="testimonials-page-h4">Kendall Williams, Metacritic</h4>
+                <span class="testimonials-page-span">
                     Review on Atlantis Ruins 4.5
                 </span>
-                <p class="page8pr">
+                <p class="testimonials-page-pr">
                     “It is definitely that kind of a game you can't stop playing! Despite its quite simple mechanics,
                     this vibrant cartoonish game delighted both my 10-year-old daughter and me. I'm at level 150 right
                     now and still not bored. Great job!”
@@ -591,11 +592,11 @@
             </li>
             <li>
                 <img src="images/steam.webp" alt="avatar">
-                <h2>Sam Welsh, Steam</h2>
-                <span>
+                <h4 class="testimonials-page-h4">Sam Welsh, Steam</h4>
+                <span class="testimonials-page-span" >
                     Review on Deep Down 4.5
                 </span>
-                <p class="page8pr">
+                <p class="testimonials-page-pr">
                     “It is definitely that kind of a game you can't stop playing! Despite its quite simple mechanics,
                     this vibrant cartoonish game delighted both my 10-year-old daughter and me. I'm at level 150 right
                     now and still not bored. Great job!”
@@ -660,11 +661,11 @@
             </li>
             <li>
                 <img src="images/origin.webp" alt="avatar">
-                <h2>Daniel Peterson, Origin</h2>
-                <span>
+                <h4 class="testimonials-page-h4">Daniel Peterson, Origin</h4>
+                <span class="testimonials-page-span">
                     Review on Atlantis Ruins 4.5
                 </span>
-                <p class="page8pr">
+                <p class="testimonials-page-pr">
                     “It is definitely that kind of a game you can't stop playing! Despite its quite simple mechanics,
                     this vibrant cartoonish game delighted both my 10-year-old daughter and me. I'm at level 150 right
                     now and still not bored. Great job!”
@@ -731,24 +732,24 @@
 
     </div>
     <hr>
-    <div class="page9div">
+    <div class="platforms-page">
         <a id="platforms">
-            <h1 class="page9h1">Let's Create Something Great Together!</h1>
+            <h2 class="platforms-page-h1">Let's Create Something Great Together!</h2>
         </a>
         <span>
             ...
         </span>
-        <p class="page9p">
+        <p class="platforms-page-p">
             Think we might be the right partner for the development of your game?
             Contact us, and we'll discuss the details
         </p>
-        <a class="page9contacts" href="">Contacts</a>
+        <a class="platforms-page-contacts-button" href="">Contacts</a>
     </div>
-    <div class="page10div">
+    <div class="available-platforms-page">
         <h1 class="page10h1">Available Platforms</h1>
-        <span>...</span>
-        <h2 class="page10h2">We create our games for all existing platforms.</h2>
-        <ul class="page10platforms">
+        <span class="span-dots">...</span>
+        <h2 class="available-platforms-pageh2">We create our games for all existing platforms.</h2>
+        <ul class="available-platforms-page-platformslist">
             <li>
                 <img src="images/playstation.webp" alt="playstation">
             </li>
@@ -770,51 +771,51 @@
 
         </ul>
     </div>
-    <div class="page11div">
-        <h1 class="page11h1">
+    <div class="our-team-page">
+        <h2 class="our-team-page-h2">
             Our Team
-        </h1>
-        <span>
+        </h2>
+        <span class="span-dots">
             ...
         </span>
-        <h2 class="page11h2">
+        <h3 class="our-team-page-h3">
             We are passionate gamers and skilled professionals in game design and development.
-        </h2>
-        <ul class="page11ulcreators">
+        </h3>
+        <ul class="our-team-page-ul-creators">
             <li>
                 <img src="images/john.webp" alt="avatarcr">
-                <h2 class="page11name">John Wilson</h2>
+                <h2 class="our-team-page-ul-creators-name">John Wilson</h2>
                 <i>iOs developer</i>
             </li>
             <li>
                 <img src="images/andrew.webp" alt="avatarcr">
-                <h2 class="page11name">Andrew Bosco</h2>
+                <h2 class="our-team-page-ul-creators-name">Andrew Bosco</h2>
                 <i>Art Directro</i>
             </li>
             <li>
                 <img src="images/edward.webp" alt="avatarcr">
-                <h2 class="page11name">Edward Johnson</h2>
+                <h2 class="our-team-page-ul-creators-name">Edward Johnson</h2>
                 <i>Artist</i>
             </li>
             <li>
                 <img src="images/ann.webp" alt="avatarcr">
-                <h2 class="page11name">Ann Fisher</h2>
+                <h2 class="our-team-page-ul-creators-name">Ann Fisher</h2>
                 <i>Game designer</i>
             </li>
         </ul>
     </div>
-    <div class="page12div">
-        <h1 class="page12h1">
+    <div class="most-popular-games-page">
+        <h2 class="most-popular-games-page-h2">
             Most Popular Games
-        </h1>
+        </h2>
         <span>
             ...
         </span>
-        <h2 class="page12h2">
-            Most Popular Games
-        </h2>
-        <div class="page12products">
-            <div class="page12product1">
+        <h3 class="most-popular-games-page-h3">
+            Don't know what game to play? Here's a list of our best products!
+        </h3>
+        <div class="most-popular-games-page-products">
+            <div class="most-popular-games-page-product">
                 <svg width="50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                     version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"
                     xml:space="preserve" style="max-width:100%" height="100%">
@@ -822,36 +823,36 @@
                         d="M93.406,38.069c-4.952-14.3-26.065-20.463-42.247-21.018v-0.05c-0.06,0-0.117-0.004-0.18-0.004  c-0.359,0-0.738,0.02-1.104,0.024c-0.366-0.004-0.745-0.024-1.104-0.024c-0.063,0-0.119,0.004-0.181,0.004v0.05  C32.412,17.606,11.298,23.77,6.347,38.069C3.386,46.619-5.39,76.334,4.771,83.436c10.29,7.197,21.528-12.602,29.271-15.615  c3.49-1.359,9.07-1.939,14.548-1.91v0.059c0.425-0.018,0.856-0.021,1.285-0.031c0.429,0.01,0.86,0.014,1.284,0.031V65.91  c5.48-0.029,11.06,0.551,14.55,1.91c7.743,3.014,18.98,22.812,29.27,15.615C105.141,76.334,96.366,46.619,93.406,38.069z   M39.205,49.128h-5.892v5.892c0,2.357-1.829,4.266-4.064,4.266c-2.236,0-4.064-1.908-4.064-4.266v-5.892h-5.892  c-2.357,0-4.266-1.83-4.266-4.062c0-2.237,1.909-4.064,4.266-4.064h5.892V35.11c0-2.355,1.829-4.267,4.064-4.267  c2.235,0,4.064,1.911,4.064,4.267v5.892h5.892c2.356,0,4.265,1.827,4.265,4.064C43.469,47.298,41.561,49.128,39.205,49.128z   M64.82,48.403c-1.777,1.775-4.663,1.775-6.438,0c-1.776-1.776-1.776-4.662,0-6.437c1.775-1.777,4.661-1.777,6.438,0  C66.597,43.741,66.597,46.627,64.82,48.403z M74.261,57.846c-1.776,1.777-4.66,1.777-6.436,0c-1.778-1.775-1.778-4.662,0-6.439  c1.775-1.776,4.659-1.776,6.436,0C76.039,53.182,76.039,56.07,74.261,57.846z M74.475,38.745c-1.774,1.778-4.66,1.778-6.436,0  c-1.778-1.776-1.778-4.66,0-6.436c1.775-1.776,4.661-1.776,6.436,0C76.251,34.085,76.251,36.969,74.475,38.745z M83.919,48.189  c-1.776,1.775-4.661,1.775-6.437,0c-1.779-1.776-1.779-4.661,0-6.438c1.775-1.776,4.66-1.776,6.437,0  C85.693,43.528,85.693,46.413,83.919,48.189z"
                         style="" fill="currentColor"></path>
                 </svg>
-                <h2 class="page12h2product">Xbox One Games</h2>
-                <div class="page12productlist">
+                <h3 class="most-popular-games-page-h3-product">Xbox One Games</h3>
+                <div class="most-popular-games-page-productlist">
                     <ul>
                         <li>
                             <img src="images/productlogos/darkmatter.webp" alt="productlogo">
-                            <h2 class="pag12productname">Dark Matter</h2>
-                            <span class="price">$35</span>
-                            <p class="page12productdiscription">Get ready for a unique adventure at the edge of the
+                            <h2 class="most-popular-games-page-h2-name">Dark Matter</h2>
+                            <span class="most-popular-games-page-price">$35</span>
+                            <p class="most-popular-games-page-discription">Get ready for a unique adventure at the edge of the
                                 universe.</p>
                         </li>
                         <li>
                             <img src="images/productlogos/fishingday.webp" alt="productlogo">
-                            <h2 class="pag12productname">
+                            <h2 class="most-popular-games-page-h2-name">
                                 Fishing Day</h2>
-                            <span class="price">$35</span>
-                            <p class="page12productdiscription">A classic fishing simulator in a modern cartoonish
+                            <span class="most-popular-games-page-price">$35</span>
+                            <p class="most-popular-games-page-discription">A classic fishing simulator in a modern cartoonish
                                 style.</p>
                         </li>
                         <li>
                             <img src="images/productlogos/alienquest.webp" alt="productlogo">
-                            <h2 class="pag12productname">Aliens Quest</h2>
-                            <span class="price">$25</span>
-                            <p class="page12productdiscription">Unravel the tangle of secrets of the aliens hiding on
+                            <h2 class="most-popular-games-page-h2-name">Aliens Quest</h2>
+                            <span class="most-popular-games-page-price">$25</span>
+                            <p class="most-popular-games-page-discription">Unravel the tangle of secrets of the aliens hiding on
                                 the Earth.</p>
                         </li>
 
                     </ul>
                 </div>
             </div>
-            <div class="page12product2">
+            <div class="most-popular-games-page-product">
                 <svg width="50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                     version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"
                     xml:space="preserve" style="max-width:100%" height="100%">
@@ -859,33 +860,33 @@
                         d="M69.3,0.5h-38c-5.5,0-10,4.5-10,10v78c0,5.5,4.5,10,10,10h38c5.5,0,10-4.5,10-10v-78 C79.3,5,74.8,0.5,69.3,0.5z M50,93.2c-2.7,0-5-2.2-5-5c0-2.7,2.2-5,5-5s5,2.2,5,5C55,91,52.7,93.2,50,93.2z M71.3,79.5h-42v-66h42 V79.5z"
                         style=""></path>
                 </svg>
-                <h2 class="page12h2product">iOS & Android Games</h2>
-                <div class="page12productlist">
+                <h3 class="most-popular-games-page-h3-product">iOS & Android Games</h3>
+                <div class="most-popular-games-page-productlist">
                     <ul>
                         <li>
                             <img src="images/productlogos/atlantins.webp" alt="productlogo">
-                            <h2 class="pag12productname">Atlantis Ruins</h2>
-                            <span class="price">$8</span>
-                            <p class="page12productdiscription">Pirate treasures are hidden in the depths of the ocean.
+                            <h2 class="most-popular-games-page-h2-name">Atlantis Ruins</h2>
+                            <span class="most-popular-games-page-price">$8</span>
+                            <p class="most-popular-games-page-discription">Pirate treasures are hidden in the depths of the ocean.
                             </p>
                         </li>
                         <li>
                             <img src="images/productlogos/feedthefox.webp" alt="productlogo">
-                            <h2 class="pag12productname">Feed the Fox</h2>
-                            <span class="price">$8</span>
-                            <p class="page12productdiscription">Your pet is not a kitty or a puppy but a real wild fox.
+                            <h2 class="most-popular-games-page-h2-name">Feed the Fox</h2>
+                            <span class="most-popular-games-page-price">$8</span>
+                            <p class="most-popular-games-page-discription">Your pet is not a kitty or a puppy but a real wild fox.
                             </p>
                         </li>
                         <li>
                             <img src="images/productlogos/shamanjungle.webp" alt="productlogo">
-                            <h2 class="pag12productname">Shamans Jungle</h2>
-                            <span class="price">$8</span>
-                            <p class="page12productdiscription">Make your way through the jungle full of dangers!</p>
+                            <h2 class="most-popular-games-page-h2-name">Shamans Jungle</h2>
+                            <span class="most-popular-games-page-price">$8</span>
+                            <p class="most-popular-games-page-discription">Make your way through the jungle full of dangers!</p>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="page12product2">
+            <div class="most-popular-games-page-product">
                 <svg width="50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                     version="1.1" x="0px" y="0px" viewBox="0 0 24 24"
                     style="enable-background:new 0 0 24 24;max-width:100%" xml:space="preserve" height="100%">
@@ -902,30 +903,30 @@
                         </g>
                     </g>
                 </svg>
-                <h2 class="page12h2product">Nintendo Wii Games</h2>
+                <h3 class="most-popular-games-page-h3-product">Nintendo Wii Games</h3>
             </div>
-            <div class="page12productlist">
+            <div class="most-popular-games-page-productlist">
                 <ul>
                     <li>
                         <img src="images/productlogos/creepymaid.webp" alt="productlogo">
-                        <h2 class="pag12productname">Creepy Maid</h2>
-                        <span class="price">$25</span>
-                        <p class="page12productdiscription">Something strange is happening at your mansion this
+                        <h2 class="most-popular-games-page-h2-name">Creepy Maid</h2>
+                        <span class="most-popular-games-page-price">$25</span>
+                        <p class="most-popular-games-page-discription">Something strange is happening at your mansion this
                             Halloween!</p>
                     </li>
                     <li>
                         <img src="images/productlogos/witchschool.webp" alt="productlogo">
-                        <h2 class="pag12productname">
+                        <h2 class="most-popular-games-page-h2-name">
                             Witch School</h2>
-                        <span class="price">$15</span>
-                        <p class="page12productdiscription">Grab your broom, cauldron, and welcome to the witch school!
+                        <span class="most-popular-games-page-price">$15</span>
+                        <p class="most-popular-games-page-discription">Grab your broom, cauldron, and welcome to the witch school!
                         </p>
                     </li>
                     <li>
                         <img src="images/productlogos/tothemoon.webp" alt="productlogo">
-                        <h2 class="pag12productname">To the Moon</h2>
-                        <span class="price">$15</span>
-                        <p class="page12productdiscription">Congrats, you're a captain on a spaceship. Where will you
+                        <h2 class="most-popular-games-page-h2-name">To the Moon</h2>
+                        <span class="most-popular-games-page-price">$15</span>
+                        <p class="most-popular-games-page-discription">Congrats, you're a captain on a spaceship. Where will you
                             go?</p>
                     </li>
                 </ul>
@@ -933,25 +934,25 @@
         </div>
     </div>
     <hr>
-    <div class="page13div">
-        <h1 class="page13h1">
+    <div class="join-the-game-page">
+        <h2 class="join-the-game-page-h2">
             Join the Game with Fun Play!
-        </h1>
-        <span class="page13span">
+        </h2>
+        <span class="span-dots">
             ...
         </span>
-        <h2 class="page13h2">
+        <h3 class="join-the-game-page-h3">
             Want to be the first to know about our releases and discounts? Subscribe to our newsletter!
-        </h2>
-        <form class="sumbitformpage13">
+        </h3>
+        <form class="join-the-game-page-sumbit-form">
             <input type="email" placeholder="email" required><br>
             <button type="submit">Submit</button>
         </form>
     </div>
     <hr>
-    <div class="page14footer">
+    <div class="footer-page">
         <footer>
-            <div class="page14logo">
+            <div class="footer-page-logo">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="258px"
                     height="172px" viewBox="0 0 258 172" version="1.1">
                     <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
@@ -1021,7 +1022,7 @@
                         </g>
                     </g>
                 </svg>
-                <p class="footerp">We develop innovative games in different genres
+                <p class="footer-page-p">We develop innovative games in different genres
                     both under our own brand and for our clients.</p>
                 <br>
                 <a class="facebookA" href="">
@@ -1082,10 +1083,10 @@
                     </svg>
                 </a>
             </div>
-            <div class="buttons">
-                <ul>
+            <div class="footer-page-buttons">
+                <ul class="footer-page-nav-ul-buttons">
                     <li>
-                        <h2> Our Games </h2>
+                        <h2 class="footer-page-h2-nav"> Our Games </h2>
                         <ul>
                             <li>
                                 <a href="">-Feed the fox</a>
@@ -1096,7 +1097,7 @@
                         </ul>
                     </li>
                     <li>
-                        <h2>Navigation</h2>
+                        <h2 class="footer-page-h2-nav">Navigation</h2>
                         <ul>
                             <li>
                                 <a href="">-About US</a>
@@ -1108,7 +1109,7 @@
 
                     </li>
                     <li>
-                        <h2>Contacts</h2>
+                        <h2 class="footer-page-h2-nav">Contacts</h2>
                         <ul>
                             <li>
                                 <a href="">-Out Studio</a>
@@ -1122,10 +1123,10 @@
                 </ul>
             </div>
             <br>
-            <span>
+            <span class="footer-span">
                 © Created by | All rights Reserved
             </span>
-            <span>
+            <span class="footer-span">
                 Phone: +1 (234) 567 89 00 | Email: funplaystudio@email.com
             </span>
         </footer>
