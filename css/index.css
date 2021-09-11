@@ -1,14 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito+Sans&display=swap');
 div.container-header {
     background-image: url(../images/productlogos/backgrounds/backgroundheader.png);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
+    
 }
-h1 {
-    color: orange;
+
 }
 header {
     display: flex ;
@@ -16,4 +11,55 @@ header {
 }
 nav {
     display: flex;
+}
+p , h3, h4, span {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+h1 , h2 ,   a  {
+    color: white;
+    font-family: 'Fredoka One', cursive; ;
+
+}
+.about-us-page {
+    background-image: url(../images/productlogos/backgrounds/background2.png);
+}
+.top-games-page {
+    background-image: url(../images/productlogos/backgrounds/background3.png);
+}
+.time-flies-page {
+    background-image: url(../images/productlogos/backgrounds/background4.png);
+}
+.new-mobile-games-page {
+    background-image: url(../images/productlogos/backgrounds/background5.png);
+}
+.our-journer-page {
+    background-image: url(../images/productlogos/backgrounds/background6.png);
+}
+.coming-soon-games-page {
+    background-image: url(../images/productlogos/backgrounds/background7.png);
+
+}
+.testimonials-page {
+    background-image: url(../images/productlogos/backgrounds/background8.png);
+
+}
+.platforms-page {
+    background-image: url(../images/productlogos/backgrounds/background9.png);
+
+}
+.available-platforms-page {
+    background-image: url(../images/productlogos/backgrounds/background10.png);
+
+}
+.our-team-page {
+    background-image: url(../images/productlogos/backgrounds/background11.png);
+
+}
+.most-popular-games-page {
+    background-image: url(../images/productlogos/backgrounds/background12.png);
+}
+.join-the-game-page {
+    background-image: url(../images/productlogos/backgrounds/background13.png);
+    
 }
