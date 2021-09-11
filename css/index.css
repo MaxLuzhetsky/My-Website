@@ -63,3 +63,9 @@ h1 , h2 ,   a  {
     background-image: url(../images/productlogos/backgrounds/background13.png);
     
 }
+.footer-page {
+    background-image: url(../images/productlogos/backgrounds/backgroundfooter.webp) ;
+}
+.facebookA {
+    color: orange;
+}
