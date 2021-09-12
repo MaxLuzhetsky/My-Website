@@ -1,56 +1,140 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito+Sans&display=swap');
 div.container-header {
     background-image: url(../images/productlogos/backgrounds/backgroundheader.png);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     
 }
-
+.header-elements {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.logo {
+    display: block;
+    justify-content: left;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+.header-nav-buttons{
+    justify-content: center;
+}
+.nav li {
+    padding-left: 10px;
 }
 header {
     display: flex ;
+    justify-content: center;
     flex-direction: row;
 }
 nav {
     display: flex;
 }
-p , h3, h4, span {
+p , h3, h4, span , a {
     color: white;
     font-family: 'Nunito Sans', sans-serif;
 }
-h1 , h2 ,   a  {
-    color: white;
-    font-family: 'Fredoka One', cursive; ;
+a {
+    text-decoration: none;
+}
+.instagramA , .youtubeA , .facebookA {
+    padding-left: 10px;
+}
+li {
+    list-style-type: none; 
+   }
 
+h1 , h2    {
+    color: white;
+    font-family: 'Fredoka One', cursive; 
+
+}
+.first-page-learnmore {
+    background-color: rgb(25, 202, 109);
+    border-radius: 10px;
+    padding-bottom: 21px;
+padding-left: 48px;
+padding-right: 48px;
+padding-top: 21px;
+font-family: 'Fredoka One', cursive ;
 }
 .about-us-page {
     background-image: url(../images/productlogos/backgrounds/background2.png);
+   
+}
+.about-us-column{
+    display: flex;
+    flex-direction: row;
+}
+.learmoreMGD {
+    background-color: rgb(69, 160, 228);
+    font-family:'Nunito Sans', sans-serif; 
+    border-radius: 10px;
+    padding-bottom: 16px;
+padding-left: 48px;
+padding-right: 48px;
+padding-top: 16px;
 }
 .top-games-page {
     background-image: url(../images/productlogos/backgrounds/background3.png);
+  
 }
 .time-flies-page {
+    display: flex;
+    flex-direction: column;
     background-image: url(../images/productlogos/backgrounds/background4.png);
+    justify-content: center;
+    text-align: center;
 }
 .new-mobile-games-page {
     background-image: url(../images/productlogos/backgrounds/background5.png);
 }
 .our-journer-page {
     background-image: url(../images/productlogos/backgrounds/background6.png);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.our-journer-page-count-of-games-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
 }
 .coming-soon-games-page {
     background-image: url(../images/productlogos/backgrounds/background7.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
 }
 .testimonials-page {
     background-image: url(../images/productlogos/backgrounds/background8.png);
-
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 .platforms-page {
     background-image: url(../images/productlogos/backgrounds/background9.png);
+    
 
 }
 .available-platforms-page {
     background-image: url(../images/productlogos/backgrounds/background10.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 
+}
+.available-platforms-page-platformslist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .our-team-page {
     background-image: url(../images/productlogos/backgrounds/background11.png);
@@ -65,6 +149,22 @@ h1 , h2 ,   a  {
 }
 .footer-page {
     background-image: url(../images/productlogos/backgrounds/backgroundfooter.webp) ;
+    display: flex;
+    flex-direction: row;
+    
+}
+footer{
+    display: flex;
+    flex-direction: row;
+
+}
+.footer-page-nav-ul-buttons{
+    display: flex;
+    flex-direction: row;
+}
+.footer-page-nav-ul-buttons li {
+    display: flex;
+    flex-direction: column;
 }
 .facebookA {
     color: orange;
