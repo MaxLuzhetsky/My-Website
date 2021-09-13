@@ -1,13 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito+Sans&display=swap');
 body {
+    box-sizing: border-box;
+margin:0;
+}
+ul{margin:0;}
 
+}
+section {
+    padding: 0;
+    margin: 0;
 }
 div.container-header {
     background-image: url(../images/productlogos/backgrounds/backgroundheader.png);
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
     
+}
+.most-popular-games-page-productlist img {
+    width: 70px;
+    height: 70px;
 }
 .header-elements {
     display: flex;
@@ -70,6 +83,7 @@ font-family: 'Fredoka One', cursive ;
 }
 .about-us-page {
     background-image: url(../images/productlogos/backgrounds/background2.png);
+    background-size: cover;
     width:100%;
 }
 .about-us-page-picture {
@@ -117,6 +131,7 @@ padding-top: 16px;
 }
 .top-games-page {
     background-image: url(../images/productlogos/backgrounds/background3.png);
+    background-size: cover;
     width:100%;
     height: auto;
 }
@@ -124,16 +139,19 @@ padding-top: 16px;
     display: flex;
     flex-direction: column;
     background-image: url(../images/productlogos/backgrounds/background4.png);
+    background-size: cover;
     justify-content: center;
     text-align: center;
 }
 .new-mobile-games-page {
     background-image: url(../images/productlogos/backgrounds/background5.png);
+    background-size: cover;
     width:100%;
     height: auto;
 }
 .our-journer-page {
     background-image: url(../images/productlogos/backgrounds/background6.png);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -148,6 +166,7 @@ padding-top: 16px;
 }
 .coming-soon-games-page {
     background-image: url(../images/productlogos/backgrounds/background7.png);
+    background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -157,6 +176,7 @@ padding-top: 16px;
 }
 .testimonials-page {
     background-image: url(../images/productlogos/backgrounds/background8.png);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -166,12 +186,14 @@ padding-top: 16px;
 }
 .platforms-page {
     background-image: url(../images/productlogos/backgrounds/background9.png);
+    background-size: cover;
     width:100%;
     height: auto;
 
 }
 .available-platforms-page {
     background-image: url(../images/productlogos/backgrounds/background10.png);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -186,21 +208,25 @@ padding-top: 16px;
 }
 .our-team-page {
     background-image: url(../images/productlogos/backgrounds/background11.png);
+    background-size: cover;
     width:100%;
     height: auto;
 }
 .most-popular-games-page {
     background-image: url(../images/productlogos/backgrounds/background12.png);
+    background-size: cover;
     width:100%;
     height: auto;
 }
 .join-the-game-page {
     background-image: url(../images/productlogos/backgrounds/background13.png);
+    background-size: cover;
     width:100%;
     height: auto;
 }
 .footer-page {
     background-image: url(../images/productlogos/backgrounds/backgroundfooter.webp) ;
+    background-size: cover;
     display: flex;
     flex-direction: row;
     width:100%;
