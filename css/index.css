@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito+Sans&display=swap');
+body {
+
+}
 div.container-header {
     background-image: url(../images/productlogos/backgrounds/backgroundheader.png);
     display: flex;
@@ -14,6 +17,8 @@ div.container-header {
 .logo {
     display: block;
     justify-content: left;
+    width: 130px;
+    height: auto;
 }
 .nav {
     display: flex;
@@ -29,6 +34,8 @@ header {
     display: flex ;
     justify-content: center;
     flex-direction: row;
+    width:100%;
+    height: auto;
 }
 nav {
     display: flex;
@@ -63,11 +70,41 @@ font-family: 'Fredoka One', cursive ;
 }
 .about-us-page {
     background-image: url(../images/productlogos/backgrounds/background2.png);
-   
+    width:100%;
+}
+.about-us-page-picture {
+    width: 90%;
+    height: auto;
+}
+img {
+    width: 50%;
+    height: auto;
 }
 .about-us-column{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+.about-us-column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width : 25%;
+    height: auto;
+    padding-left: 15px;
+padding-right: 15px;
+    border-radius: 15px;
+    margin: 10px 15px 0 15px;
+}
+.about-us-column-icons {
+    min-height: 32px;
+    padding-top: 33.3333%;
+    overflow: hidden;
+    margin-left: 15px;
+}
+.about-us-column-container{
+    background-color: rgb(14, 49, 84);
+    
 }
 .learmoreMGD {
     background-color: rgb(69, 160, 228);
@@ -80,7 +117,8 @@ padding-top: 16px;
 }
 .top-games-page {
     background-image: url(../images/productlogos/backgrounds/background3.png);
-  
+    width:100%;
+    height: auto;
 }
 .time-flies-page {
     display: flex;
@@ -91,12 +129,16 @@ padding-top: 16px;
 }
 .new-mobile-games-page {
     background-image: url(../images/productlogos/backgrounds/background5.png);
+    width:100%;
+    height: auto;
 }
 .our-journer-page {
     background-image: url(../images/productlogos/backgrounds/background6.png);
     display: flex;
     flex-direction: column;
     text-align: center;
+    width:100%;
+    height: auto;
 }
 .our-journer-page-count-of-games-container{
     display: flex;
@@ -109,6 +151,8 @@ padding-top: 16px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width:100%;
+    height: auto;
 
 }
 .testimonials-page {
@@ -117,10 +161,13 @@ padding-top: 16px;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    width:100%;
+    height: auto;
 }
 .platforms-page {
     background-image: url(../images/productlogos/backgrounds/background9.png);
-    
+    width:100%;
+    height: auto;
 
 }
 .available-platforms-page {
@@ -129,7 +176,8 @@ padding-top: 16px;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-
+    width:100%;
+    height: auto;
 }
 .available-platforms-page-platformslist{
     display: flex;
@@ -138,19 +186,24 @@ padding-top: 16px;
 }
 .our-team-page {
     background-image: url(../images/productlogos/backgrounds/background11.png);
-
+    width:100%;
+    height: auto;
 }
 .most-popular-games-page {
     background-image: url(../images/productlogos/backgrounds/background12.png);
+    width:100%;
+    height: auto;
 }
 .join-the-game-page {
     background-image: url(../images/productlogos/backgrounds/background13.png);
-    
+    width:100%;
+    height: auto;
 }
 .footer-page {
     background-image: url(../images/productlogos/backgrounds/backgroundfooter.webp) ;
     display: flex;
     flex-direction: row;
+    width:100%;
     
 }
 footer{
@@ -168,4 +221,8 @@ footer{
 }
 .facebookA {
     color: orange;
+}
+.gameslist-buttons-shop {
+    width: 135px;
+    height: 42px;
 }
