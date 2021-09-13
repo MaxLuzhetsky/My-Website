@@ -226,3 +226,7 @@ footer{
     width: 135px;
     height: 42px;
 }
+.testimonials-icons{
+    max-width: 120px;
+    max-height: 120px;
+}
