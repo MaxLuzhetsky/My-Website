@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito+Sans&display=swap');
 body {
     box-sizing: border-box;
-margin:0;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
-ul{margin:0;}
+
+ul {
+    margin: 0;
+}
+.InternerIcons {
+    width: 30px;
+    height: 30px;
+    color: rgb(249, 186, 56);
+}
 
 }
 section {
@@ -12,11 +22,11 @@ section {
 }
 div.container-header {
     background-image: url(../images/productlogos/backgrounds/backgroundheader.png);
-    background-size: cover;
-    display: flex;
+    
+    display: block;
     justify-content: center;
     flex-direction: column;
-    
+    box-sizing: border-box;
 }
 .most-popular-games-page-productlist img {
     width: 70px;
@@ -24,8 +34,9 @@ div.container-header {
 }
 .header-elements {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
+    align-items: center;
 }
 .logo {
     display: block;
@@ -37,64 +48,102 @@ div.container-header {
     display: flex;
     flex-direction: row;
 }
-.header-nav-buttons{
+.header-nav-buttons {
     justify-content: center;
 }
 .nav li {
     padding-left: 10px;
 }
 header {
-    display: flex ;
-    justify-content: center;
+    display: block;
+    justify-content: space-between;
     flex-direction: row;
-    width:100%;
+    width: 100%;
     height: auto;
+    padding: 30px 15px 30px 15px;
+    margin: auto;
+    max-width: 1200px;
+    align-items: stretch;
 }
 nav {
     display: flex;
 }
-p , h3, h4, span , a {
+p,
+h3,
+h4,
+span,
+a {
     color: white;
     font-family: 'Nunito Sans', sans-serif;
 }
 a {
     text-decoration: none;
 }
-.instagramA , .youtubeA , .facebookA {
+.instagramA,
+.youtubeA,
+.facebookA {
     padding-left: 10px;
 }
 li {
-    list-style-type: none; 
-   }
-
-h1 , h2    {
+    list-style-type: none;
+}
+h1,
+h2 {
     color: white;
-    font-family: 'Fredoka One', cursive; 
-
+    font-family: 'Fredoka One', cursive;
 }
 .first-page-learnmore {
     background-color: rgb(25, 202, 109);
     border-radius: 10px;
     padding-bottom: 21px;
-padding-left: 48px;
-padding-right: 48px;
-padding-top: 21px;
-font-family: 'Fredoka One', cursive ;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 21px;
+    font-family: 'Fredoka One', cursive;
+    max-width: 170px;
+    max-height: 17px;
+    text-align: center;
+}
+.underheader-container {
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items: center;
+    padding: 170px 0 190px 0;
+}
+.underheader {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    margin: auto;
+}
+.underheader h1 { 
+    font-size: 76px;
+    padding: 0 15px 0 15px;
 }
 .about-us-page {
     background-image: url(../images/productlogos/backgrounds/background2.png);
-    background-size: cover;
-    width:100%;
+    
+    width: 100%;
+    height: auto;
+    padding: 100px 0 100px 0;
+}
+.about-us-page-img {
+    align-items: center;
 }
 .about-us-page-picture {
     width: 90%;
     height: auto;
+    
 }
 img {
     width: 50%;
     height: auto;
 }
-.about-us-column{
+.about-us-column {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -103,51 +152,107 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width : 25%;
+    width: 33,33%;
     height: auto;
     padding-left: 15px;
-padding-right: 15px;
+    padding-right: 15px;
     border-radius: 15px;
     margin: 10px 15px 0 15px;
+}
+.about-us-column-container h2 , p {
+    text-align: center;
 }
 .about-us-column-icons {
     min-height: 32px;
     padding-top: 33.3333%;
     overflow: hidden;
     margin-left: 15px;
+    align-self: center;
 }
-.about-us-column-container{
+.about-us-column-container {
     background-color: rgb(14, 49, 84);
-    
 }
 .learmoreMGD {
     background-color: rgb(69, 160, 228);
-    font-family:'Nunito Sans', sans-serif; 
+    font-family: 'Nunito Sans', sans-serif;
     border-radius: 10px;
     padding-bottom: 16px;
-padding-left: 48px;
-padding-right: 48px;
-padding-top: 16px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 16px;
 }
 .top-games-page {
     background-image: url(../images/productlogos/backgrounds/background3.png);
-    background-size: cover;
-    width:100%;
+    padding: 90px 0 90px 0;
+    width: 100%;
     height: auto;
+}
+.top-games-page-h2 {
+    font-size: 60px;
+}
+.top-games-page h2 , h3 , span {
+    text-align: center;
+    align-items: center;
+}
+.gameslist  {
+    margin-top: 40px;
+}
+.top-games-page-gamelist li {
+    background-color: rgb(20, 56, 93);
+    display: flex;
+    flex-direction: row;
+}
+.top-games-page-gamelist-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.top-games-page-gamelist + .gameslist-buttons-shop {
+    align-self: center;
 }
 .time-flies-page {
     display: flex;
     flex-direction: column;
     background-image: url(../images/productlogos/backgrounds/background4.png);
-    background-size: cover;
+    
     justify-content: center;
     text-align: center;
+    padding: 90px 0 100px 0;
+}
+.time-flies-page-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 45%;
+    height: auto;
+    margin: auto;
+    padding: 0 15px 0 15px;
+}
+.time-flies-page-h2 {
+    font-size: 76px;
+    text-align: left;
+}
+.time-flies-page-learn-more-bttn {
+    background-color: rgb(249, 186, 56);
+    border-radius: 15px;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 16px;
+    max-width: 170px;
+    max-height: 17px;
+
 }
 .new-mobile-games-page {
     background-image: url(../images/productlogos/backgrounds/background5.png);
     background-size: cover;
-    width:100%;
+    width: 100%;
     height: auto;
+    padding: 90px 0 100px 0;
 }
 .our-journer-page {
     background-image: url(../images/productlogos/backgrounds/background6.png);
@@ -155,10 +260,10 @@ padding-top: 16px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    width:100%;
+    width: 100%;
     height: auto;
 }
-.our-journer-page-count-of-games-container{
+.our-journer-page-count-of-games-container {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -170,9 +275,8 @@ padding-top: 16px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width:100%;
+    width: 100%;
     height: auto;
-
 }
 .testimonials-page {
     background-image: url(../images/productlogos/backgrounds/background8.png);
@@ -181,15 +285,45 @@ padding-top: 16px;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    width:100%;
+    width: 100%;
     height: auto;
+}
+.testimonials-page-h2 {
+    font-size: 66px;
+    text-align: center;
 }
 .platforms-page {
     background-image: url(../images/productlogos/backgrounds/background9.png);
-    background-size: cover;
-    width:100%;
+    
+    width: 100%;
     height: auto;
-
+    padding: 200px 0 200px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.platforms-page-h2  {
+    font-size: 66px;
+    text-align: center;
+}
+.platforms-page-p {
+    font-family: 'Nunito Sans', sans-serif ;
+    font-size: 20px;
+}
+.platforms-page-contacts-button {
+    background-color: rgb(249, 186, 56);
+    border-radius: 15px;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 16px;
+    max-width: 170px;
+    max-height: 17px;
+align-self: center;
 }
 .available-platforms-page {
     background-image: url(../images/productlogos/backgrounds/background10.png);
@@ -198,10 +332,10 @@ padding-top: 16px;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width:100%;
+    width: 100%;
     height: auto;
 }
-.available-platforms-page-platformslist{
+.available-platforms-page-platformslist {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -209,35 +343,45 @@ padding-top: 16px;
 .our-team-page {
     background-image: url(../images/productlogos/backgrounds/background11.png);
     background-size: cover;
-    width:100%;
+    width: 100%;
     height: auto;
+}
+.our-team-page-icon {
+    max-width: 100%;
+    min-height: 32px;
+}
+.our-team-page-ul-creators li {
+    min-width: 33%;
 }
 .most-popular-games-page {
     background-image: url(../images/productlogos/backgrounds/background12.png);
-    background-size: cover;
-    width:100%;
+    
+    width: 100%;
     height: auto;
+    padding: 80px 0 90px 0;
+    text-align: center;
+}
+.most-popular-games-page-h2 {
+    font-size: 66px;
 }
 .join-the-game-page {
     background-image: url(../images/productlogos/backgrounds/background13.png);
     background-size: cover;
-    width:100%;
+    width: 100%;
     height: auto;
 }
 .footer-page {
-    background-image: url(../images/productlogos/backgrounds/backgroundfooter.webp) ;
+    background-image: url(../images/productlogos/backgrounds/backgroundfooter.webp);
     background-size: cover;
     display: flex;
     flex-direction: row;
-    width:100%;
-    
+    width: 100%;
 }
-footer{
+footer {
     display: flex;
     flex-direction: row;
-
 }
-.footer-page-nav-ul-buttons{
+.footer-page-nav-ul-buttons {
     display: flex;
     flex-direction: row;
 }
@@ -252,7 +396,7 @@ footer{
     width: 135px;
     height: 42px;
 }
-.testimonials-icons{
+.testimonials-icons {
     max-width: 120px;
     max-height: 120px;
 }
