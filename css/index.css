@@ -201,11 +201,24 @@ img {
     background-color: rgb(20, 56, 93);
     display: flex;
     flex-direction: row;
+    margin: auto;
+    padding: 50px 70px 50px 70px;
+}
+.top-games-page-gamelist ul {
+    padding: 0;
 }
 .top-games-page-gamelist-info {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    text-align: left;
+}
+.game-list-h2 { 
+    text-align: left;
+}
+.game-icon {
+    width: 40%;
+    height: 40%;
 }
 .top-games-page-gamelist + .gameslist-buttons-shop {
     align-self: center;
