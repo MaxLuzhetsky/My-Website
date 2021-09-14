@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito+Sans&display=swap');
+html,body{
+    overflow-x: hidden
+    }
 body {
     box-sizing: border-box;
     margin: 0;
@@ -37,6 +40,8 @@ div.container-header {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    width:100%;
+height:auto;
 }
 .logo {
     display: block;
@@ -147,27 +152,35 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    
 }
 .about-us-column-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 33,33%;
-    height: auto;
+    width: 25%;
+    height: 33%;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 15px;
     margin: 10px 15px 0 15px;
+    max-height: 525px;
 }
 .about-us-column-container h2 , p {
     text-align: center;
 }
 .about-us-column-icons {
+    max-width: 100%;
     min-height: 32px;
+    height: auto;
     padding-top: 33.3333%;
     overflow: hidden;
     margin-left: 15px;
     align-self: center;
+    image-resolution: 20px 20px;
 }
 .about-us-column-container {
     background-color: rgb(14, 49, 84);
@@ -276,6 +289,17 @@ img {
     width: 100%;
     height: auto;
 }
+.our-journer-page-h2 {
+    font-size: 60px;
+
+}
+.our-journer-page-numbers {
+    padding: 0 15px 15px 0;
+}
+.our-journer-page-pn {
+    font-size: 50px;
+    font-family: 'Fredoka One', cursive ;
+}
 .our-journer-page-count-of-games-container {
     display: flex;
     flex-direction: row;
@@ -347,17 +371,29 @@ align-self: center;
     text-align: center;
     width: 100%;
     height: auto;
+    padding: 200px 0 200px 0;
 }
 .available-platforms-page-platformslist {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+.available-platforms-page-h2  {
+    font-size: 60px;
+    text-align: center;
+}
+  
+
 .our-team-page {
     background-image: url(../images/productlogos/backgrounds/background11.png);
     background-size: cover;
     width: 100%;
     height: auto;
+    padding: 90px 0 90px 0;
+}
+.our-team-page-h2 {
+    font-size: 60px;
+   
 }
 .our-team-page-icon {
     max-width: 100%;
@@ -382,6 +418,15 @@ align-self: center;
     background-size: cover;
     width: 100%;
     height: auto;
+    padding: 100px 0 100px 0;
+}
+.join-form {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 .footer-page {
     background-image: url(../images/productlogos/backgrounds/backgroundfooter.webp);
