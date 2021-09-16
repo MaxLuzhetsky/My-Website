@@ -1,14 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito+Sans&display=swap');
-html,body{
-    overflow-x: hidden
+@media screen and (min-width:320px) {
+    
+    .underheader-h2 { 
+        font-size: 56px;
+        padding: 0 15px 0 15px;
     }
+}
+/*for carousel*/
+@keyframes tonext {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: 100%;
+    }
+    98% {
+      left: 100%;
+    }
+    99% {
+      left: 0;
+    }
+  }
+  
+  @keyframes tostart {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: -300%;
+    }
+    98% {
+      left: -300%;
+    }
+    99% {
+      left: 0;
+    }
+  }
+  
+  @keyframes snap {
+    96% {
+      scroll-snap-align: center;
+    }
+    97% {
+      scroll-snap-align: none;
+    }
+    99% {
+      scroll-snap-align: none;
+    }
+    100% {
+      scroll-snap-align: center;
+    }
+  }
+/*for carousel*/  
+* {
+    box-sizing: border-box;
+    scrollbar-color: transparent transparent; /* thumb and track color */
+    scrollbar-width: 0px;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+  }
+  
+  * {
+    -ms-overflow-style: none;
+  }
 body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
-
+div {
+    margin: auto;
+}
 ul {
     margin: 0;
 }
@@ -18,13 +92,13 @@ ul {
     color: rgb(249, 186, 56);
 }
 
-}
+
 section {
     padding: 0;
     margin: 0;
 }
 div.container-header {
-    background-image: url(../images/productlogos/backgrounds/backgroundheader.png);
+    background-image: url(../images/productlogos/backgrounds/backgroundheader.png) ;
     
     display: block;
     justify-content: center;
@@ -105,9 +179,9 @@ h2 {
     padding-right: 48px;
     padding-top: 21px;
     font-family: 'Fredoka One', cursive;
-    max-width: 170px;
-    max-height: 17px;
+   font-size: 15.4px;
     text-align: center;
+    max-width: 200px;
 }
 .underheader-container {
     width: 100%;
@@ -117,7 +191,7 @@ h2 {
     padding: 170px 0 190px 0;
 }
 .underheader {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -125,7 +199,7 @@ h2 {
     padding: 0 15px 0 15px;
     margin: auto;
 }
-.underheader h1 { 
+.underheader-h2 { 
     font-size: 76px;
     padding: 0 15px 0 15px;
 }
@@ -146,8 +220,8 @@ h2 {
 .about-us-page-picture {
     display: flex;
     justify-content: center;
-    
-    width: 50%;
+    min-height: 32px;
+    width: 70%;
     height: auto;
     align-self: center;
 }
@@ -165,34 +239,42 @@ img {
     
 }
 .about-us-column-container {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 25%;
+    max-width: 33%;
+    min-width: 170px;
+    min-height: 17px;
     height: auto;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 15px;
     margin: 10px 15px 0 15px;
-    max-height: 525px;
+    
+    background-color: rgb(14, 49, 84);
+    padding: 40px 20px 40px 20px;
 }
 .about-us-column-container h2 , p {
     text-align: center;
+    box-sizing: border-box;
+}
+.about-us-column-container h2 {
+    font-size: 24px;
 }
 .about-us-column-icons {
     max-width: 100%;
-    min-height: 32px;
-    
+    box-sizing: border-box;
+    height: auto;
     
     overflow: hidden;
     margin:auto;
     align-self: center;
     
 }
-.about-us-column-container {
-    background-color: rgb(14, 49, 84);
-    padding: 40px 20px 40px 20px;
-}
+
+    
+
 .learmoreMGD {
     background-color: rgb(69, 160, 228);
     font-family: 'Nunito Sans', sans-serif;
@@ -201,12 +283,17 @@ img {
     padding-left: 48px;
     padding-right: 48px;
     padding-top: 16px;
-    width: 170px;
-    height: 17px;
+    max-width: 250px;
+    max-height: 25px;
+    width: 200px;
+    height: 20px;
     align-self: center;
     text-align: center;
     font-family: 'Fredoka One', cursive;
+    font-size:15px;
+
 }
+/*TOP GAMES WITH CAROUSEL */
 .top-games-page {
     background-image: url(../images/productlogos/backgrounds/background3.png);
     padding: 90px 0 90px 0;
@@ -220,13 +307,15 @@ img {
     text-align: center;
     align-items: center;
 }
-.gameslist  {
+/*
+.gameslist-carousel  {
     width: 90%;
     height: auto;
     margin-top: 40px;
     margin: auto;
 }
-.top-games-page-gamelist{
+*/
+.top-games-page-gamelist-carousel-viewport{
     padding-left: 0;
 }
 .top-games-page-gamelist li {
@@ -242,19 +331,201 @@ img {
 .top-games-page-gamelist-info {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    text-align: left;
+    
+    align-items: flex-start;
+    padding: 40px 52px 40px 52px;
 }
 .game-list-h2 { 
+    font-size:130%;
+    text-align: left;
+    box-sizing: border-box;
+}
+.game-list-p {
+    font-size:100%;
     text-align: left;
 }
 .game-icon {
-    width: 40%;
-    height: 40%;
+    max-width: 100%;
+    height: 70%;
+    box-sizing: border-box;
 }
 .top-games-page-gamelist + .gameslist-buttons-shop {
-    align-self: center;
-}
+    align-self: center;}
+    /* CAROUSEL */
+    ol, li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+    .carousel {
+        min-width: 100%;
+        height: auto;
+        min-height: 1000px;
+        position: relative;
+        
+        filter: drop-shadow(0 0 10px #0003);
+        perspective: 100px;
+        padding: 0 40px 0 40px;
+        margin: auto;
+        overflow-x: hidden;
+overflow-y: hidden;
+      }
+      
+      .carousel__viewport {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        overflow-x: scroll;
+        counter-reset: item;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        width: 100%;
+        height: auto;
+        padding: 26px 43px 26px 43px;
+        margin: auto;
+      }
+      
+      .carousel__slide {
+        position: relative;
+        flex: 0 0 100%;
+        width: 100%;
+        height: auto;
+        background-color: rgb(20, 56, 93);
+        counter-increment: item;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .carousel__slide:nth-child(even) {
+        background-color: rgb(20, 56, 93);
+      }
+      
+      .carousel__slide:before {
+        content: counter(item);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: auto;
+      }
+      
+      .carousel__snapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        scroll-snap-align: center;
+        padding: 50px 70px 50px 70px;
+        display: flex;
+        
+        
+      }
+      
+      @media (hover: hover) {
+        .carousel__snapper {
+          animation-name: tonext, snap;
+          animation-timing-function: ease;
+          animation-duration: 5s;
+          animation-iteration-count: infinite;
+        }
+      
+        .carousel__slide:last-child .carousel__snapper {
+          animation-name: tostart, snap;
+        }
+      }
+      
+      @media (prefers-reduced-motion: reduce) {
+        .carousel__snapper {
+          animation-name: none;
+        }
+      }
+      
+      .carousel:hover .carousel__snapper,
+      .carousel:focus-within .carousel__snapper {
+        animation-name: none;
+      }
+      
+      .carousel__navigation {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+      }
+      
+      .carousel__navigation-list,
+      .carousel__navigation-item {
+        display: inline-block;
+      }
+      
+      .carousel__navigation-button {
+        display: inline-block;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: rgb(255, 251, 251);
+        background-clip: content-box;
+        border: 0.25rem solid transparent;
+        border-radius: 50%;
+        font-size: 0;
+        transition: transform 0.1s;
+        margin: auto;
+      }
+      
+      .carousel::before,
+      .carousel::after,
+      .carousel__prev,
+      .carousel__next {
+        position: absolute;
+        top: 0;
+        margin-top: 37.5%;
+        width: 4rem;
+        height: 4rem;
+        transform: translateY(-50%);
+        border-radius: 50%;
+        font-size: 0;
+        outline: 0;
+        align-self: center
+        ;
+      }
+      
+      .carousel::before,
+      .carousel__prev {
+        left: -1rem;
+      }
+      
+      .carousel::after,
+      .carousel__next {
+        right: -1rem;
+      }
+      
+      .carousel::before,
+      .carousel::after {
+        content: '';
+        z-index: 1;
+        background-color:none;
+        background-size: 1.5rem 1.5rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        color: #fff;
+        font-size: 2.5rem;
+        line-height: 4rem;
+        text-align: center;
+        pointer-events: none;
+      }
+      
+      .carousel::before {
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
+      }
+      
+      .carousel::after {
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+      }
+/*TOP GAMES WITH CAROUSEL */
+
 .time-flies-page {
     display: flex;
     flex-direction: column;
@@ -274,8 +545,9 @@ img {
     padding: 0 15px 0 15px;
 }
 .time-flies-page-h2 {
-    font-size: 76px;
-    text-align: left;
+    font-size: 56px;
+    text-align: center;
+    font-stretch:100%
 }
 .time-flies-page-learn-more-bttn {
     background-color: rgb(249, 186, 56);
@@ -310,6 +582,7 @@ img {
 .newgames {
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
 
 }
 .new-mobile-games-page-game-img {
@@ -330,9 +603,11 @@ img {
 }
 .our-journer-page-numbers {
     padding: 0 15px 15px 0;
+    width: 30%;
+    height: auto;
 }
 .our-journer-page-pn {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Fredoka One', cursive ;
 }
 .our-journer-page-count-of-games-container {
@@ -340,6 +615,8 @@ img {
     flex-direction: row;
     text-align: center;
     justify-content: center;
+    width: 90%;
+    height: auto;
 }
 .countofgames {
     width: 100%;
@@ -444,6 +721,7 @@ align-self: center;
     flex-direction: row;
     width: 100%;
     height: auto;
+    flex-wrap: wrap;
 }
 .our-team-page-ul-creators li {
     min-width: 40%;
@@ -470,11 +748,19 @@ align-self: center;
 .most-popular-games-page-products {
     display: flex;
     flex-direction: row;
+    max-width: 100%;
+    max-height: auto;
+    padding: 0 40px 0 40px;
+    flex-wrap: wrap;
 }
 .most-popular-games-page-product-ul li {
     display: flex;
     flex-direction: row;
 
+}
+.most-popular-games-page-product-ul-img {
+    width: 70px;
+    height: 70px;
 }
 .most-popular-games-page-product-info {
     display: flex;
@@ -541,6 +827,7 @@ align-self: center;
 footer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .footer-page-nav-ul-buttons {
     display: flex;
