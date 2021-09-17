@@ -299,6 +299,7 @@ img {
     width: 100%;
     height: auto;
     max-height: 980px;
+    
 }
 .top-games-page-h2 {
     font-size: 60px;
@@ -741,6 +742,21 @@ overflow-y: hidden;
     font-size: 66px;
     text-align: center;
 }
+.testimonials-icons {
+
+}
+.internet-icons-contrainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin:0;
+}
+.internet-icons-contrainer-svg {
+    padding-right: 20px;
+}
+.internet-icons-contrainer a {
+    padding-right: 10px;
+}
 .platforms-page {
     background-image: url(../images/productlogos/backgrounds/background9.png);
     
@@ -948,4 +964,5 @@ footer {
 .testimonials-icons {
     max-width: 120px;
     max-height: 120px;
+    align-self: center;
 }
