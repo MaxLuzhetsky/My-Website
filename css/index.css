@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito+Sans&display=swap');
 @media screen and (min-width:320px) {
-    
     .underheader-h2 { 
         font-size: 56px;
         padding: 0 15px 0 15px;
@@ -243,7 +242,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 33%;
+    max-width: 25%;
     min-width: 170px;
     min-height: 17px;
     height: auto;
@@ -283,10 +282,10 @@ img {
     padding-left: 48px;
     padding-right: 48px;
     padding-top: 16px;
-    max-width: 250px;
-    max-height: 25px;
-    width: 200px;
-    height: 20px;
+    min-height: 40px;
+   
+    
+    
     align-self: center;
     text-align: center;
     font-family: 'Fredoka One', cursive;
@@ -299,9 +298,11 @@ img {
     padding: 90px 0 90px 0;
     width: 100%;
     height: auto;
+    max-height: 980px;
 }
 .top-games-page-h2 {
     font-size: 60px;
+    margin:0;
 }
 .top-games-page h2 , h3 , span {
     text-align: center;
@@ -315,9 +316,7 @@ img {
     margin: auto;
 }
 */
-.top-games-page-gamelist-carousel-viewport{
-    padding-left: 0;
-}
+
 .top-games-page-gamelist li {
     background-color: rgb(20, 56, 93);
     display: flex;
@@ -334,6 +333,8 @@ img {
     
     align-items: flex-start;
     padding: 40px 52px 40px 52px;
+    width: 60%;
+    height: auto;
 }
 .game-list-h2 { 
     font-size:130%;
@@ -344,10 +345,27 @@ img {
     font-size:100%;
     text-align: left;
 }
+.game-icon-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin: 0;
+    
+}
 .game-icon {
-    max-width: 100%;
-    height: 70%;
+    width: 100%;
+    height: auto;
     box-sizing: border-box;
+    align-self: center;
+    min-width: 500px;
+    min-height: 250px;
+}
+.button-shop {
+    display: flex;
+    flex-direction: row;
+
 }
 .top-games-page-gamelist + .gameslist-buttons-shop {
     align-self: center;}
@@ -357,11 +375,11 @@ img {
         margin: 0;
         padding: 0;
         list-style-type: none;
-      }
+    }
     .carousel {
         min-width: 100%;
         height: auto;
-        min-height: 1000px;
+        min-height: 800px;
         position: relative;
         
         filter: drop-shadow(0 0 10px #0003);
@@ -385,8 +403,15 @@ overflow-y: hidden;
         scroll-snap-type: x mandatory;
         width: 100%;
         height: auto;
-        padding: 26px 43px 26px 43px;
+        
         margin: auto;
+        list-style: none;
+        list-style-type: disc;
+        max-width: 1200px;
+        max-height: 700px;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 0;
       }
       
       .carousel__slide {
@@ -397,7 +422,16 @@ overflow-y: hidden;
         background-color: rgb(20, 56, 93);
         counter-increment: item;
         display: flex;
-        flex-wrap: wrap;
+        
+      }
+      .newgames-carousel__slide {
+        position: relative;
+        flex: 0 0 100%;
+        width: 100%;
+        height: auto;
+        background-color: none;
+        counter-increment: item;
+        display: flex;
       }
       
       .carousel__slide:nth-child(even) {
@@ -417,10 +451,12 @@ overflow-y: hidden;
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: auto;
         scroll-snap-align: center;
         padding: 50px 70px 50px 70px;
         display: flex;
+        
+        
         
         
       }
@@ -451,8 +487,9 @@ overflow-y: hidden;
       
       .carousel__navigation {
         position: absolute;
+        
         right: 0;
-        bottom: 0;
+        bottom: -10px;
         left: 0;
         text-align: center;
       }
@@ -466,7 +503,7 @@ overflow-y: hidden;
         display: inline-block;
         width: 1.5rem;
         height: 1.5rem;
-        background-color: rgb(255, 251, 251);
+        background-color: rgb(255, 255, 255);
         background-clip: content-box;
         border: 0.25rem solid transparent;
         border-radius: 50%;
@@ -481,15 +518,15 @@ overflow-y: hidden;
       .carousel__next {
         position: absolute;
         top: 0;
-        margin-top: 37.5%;
+        margin-top:20%;
         width: 4rem;
         height: 4rem;
         transform: translateY(-50%);
         border-radius: 50%;
         font-size: 0;
         outline: 0;
-        align-self: center
-        ;
+        align-self: center;
+        
       }
       
       .carousel::before,
@@ -510,7 +547,7 @@ overflow-y: hidden;
         background-size: 1.5rem 1.5rem;
         background-repeat: no-repeat;
         background-position: center center;
-        color: #fff;
+        color: rgb(187, 10, 10);
         font-size: 2.5rem;
         line-height: 4rem;
         text-align: center;
@@ -530,24 +567,30 @@ overflow-y: hidden;
     display: flex;
     flex-direction: column;
     background-image: url(../images/productlogos/backgrounds/background4.png);
-    
+    background-size: cover;
     justify-content: center;
     text-align: center;
     padding: 90px 0 100px 0;
 }
 .time-flies-page-container {
     display: flex;
-    flex-direction: row;
+    
     justify-content: flex-start;
-    width: 45%;
+    width: 1200px;
     height: auto;
-    margin: auto;
+    
     padding: 0 15px 0 15px;
+    align-items: flex-start;
 }
 .time-flies-page-h2 {
-    font-size: 56px;
-    text-align: center;
+    font-size: 76px;
+    
     font-stretch:100%
+}
+.time-flies-page-container-text {
+    
+    text-align: left;
+    max-width:  58.3333%;
 }
 .time-flies-page-learn-more-bttn {
     background-color: rgb(249, 186, 56);
@@ -585,8 +628,19 @@ overflow-y: hidden;
     flex-wrap: wrap;
 
 }
+.new-mobile-games-page-game-img-container {
+    display: flex;
+    justify-content: center;
+}
 .new-mobile-games-page-game-img {
     align-self: center;
+    min-width: 360px;
+    height: auto;
+}
+.new-mobile-games-page-game-info {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 .our-journer-page {
     background-image: url(../images/productlogos/backgrounds/background6.png);
@@ -630,6 +684,48 @@ overflow-y: hidden;
     justify-content: center;
     width: 100%;
     height: auto;
+    margin: auto;
+    padding: 100px 0 100px 0;
+}
+.comingsoongame  {
+    display: flex;
+    flex-direction: row;
+}
+.comingsoon-contrainer {
+    min-width: 350px;
+    min-height: 450px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+}
+.coming-soon-games-page-h2  {
+    font-size:60px;
+}
+.coming-soon-contrainer {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.svgcomingsoon {
+    max-width: 350px;
+    max-height: 600px;
+    height: auto;
+    width: 90%;
+    padding: 0 15px 0 15px;
+    margin: auto;
+}
+.svg-comingsoon {
+        max-width: 350px;
+        max-height: 600px;
+        height: auto;
+        width: 80%;
+        background-image: url(../images/comingsoon.webp);
+        background-size: cover;
+        align-self: center;
+        border-radius: 35px;
 }
 .testimonials-page {
     background-image: url(../images/productlogos/backgrounds/background8.png);
@@ -804,6 +900,7 @@ align-self: center;
     width: 100%;
     height: 51px;
     border-radius: 15px;
+    padding: 0 20px 0 20px;
 }
 .join-form-button {
     border: none;
@@ -816,6 +913,10 @@ align-self: center;
     background-color: rgb(218, 50, 101);
     padding : 16px 48px 16px 48px ;
     margin-top: 24px;
+}
+.space-page {
+    padding: 260px 0 260px 0;
+    background-image: url(../images/productlogos/backgrounds/background14.png);
 }
 .footer-page {
     background-image: url(../images/productlogos/backgrounds/backgroundfooter.webp);

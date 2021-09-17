@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Development Studio 1 Website Template Demo</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/newgames_carousel.css">
 
 </head>
 
@@ -248,11 +249,12 @@
             <ol class="carousel__viewport">
                 <li id="carousel__slide1" class="carousel__slide" tabindex="0">
                     <div class="carousel__snapper">
-                        <img class="game-icon" src="images/game1.webp " alt="game1 ">
-
+                        <picture class="game-icon-container">
+                            <img class="game-icon" src="images/game1.webp " alt="game1 ">
+                        </picture>
                         <div class="top-games-page-gamelist-info">
                             <h2 class="game-list-h2 ">Monster Battle</h2>
-                            <p><i>Fighting</i></p><br>
+                            <p><i>Fighting</i></p>
                             <p class="game-list-p ">
                                 Enjoy this fighting game , choose one of the offered teams , and fight with numerous
                                 monsters on the main arena of Arkonium planet.
@@ -269,19 +271,25 @@
                             <p>
                                 Download Now :
                             </p>
-                            <img class="gameslist-buttons-shop " src="images/googlebutton.png " alt="google ">
-                            <img class="gameslist-buttons-shop " src="images/appstore.png " alt="appstore ">
+                            <div class="button-shop">
+                                <img class="gameslist-buttons-shop " src="images/googlebutton.png " alt="google ">
+                                <img class="gameslist-buttons-shop " src="images/appstore.png " alt="appstore ">
+                            </div>
+                            <a href="#carousel__slide3" class="carousel__prev">Go to last slide</a>
+                            <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
                         </div>
+
                     </div>
-                    <a href="#carousel__slide3" class="carousel__prev">Go to last slide</a>
-                    <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+
                 </li>
                 <li id="carousel__slide2" class="carousel__slide" tabindex="0">
-                    <div class="carousel__snapper"><img class="game-icon" src="images/wildwest.webp " alt="game1 ">
-
+                    <div class="carousel__snapper">
+                        <picture class="game-icon-container">
+                            <img class="game-icon" src="images/wildwest.webp " alt="game1 ">
+                        </picture>
                         <div class="top-games-page-gamelist-info">
                             <h2 class="game-list-h2 ">Wild West</h2>
-                            <p><i>Fighting</i></p><br>
+                            <p><i>Fighting</i></p>
                             <p class="game-list-p ">
                                 Enjoy this fighting game , choose one of the offered teams , and fight with numerous
                                 monsters on the main arena of Arkonium planet.
@@ -298,20 +306,25 @@
                             <p>
                                 Download Now :
                             </p>
-                            <img class="gameslist-buttons-shop " src="images/googlebutton.png " alt="google ">
-                            <img class="gameslist-buttons-shop " src="images/appstore.png " alt="appstore ">
+                            <div class="button-shop">
+                                <img class="gameslist-buttons-shop " src="images/googlebutton.png " alt="google ">
+                                <img class="gameslist-buttons-shop " src="images/appstore.png " alt="appstore ">
+                            </div>
+
                         </div>
+                        <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
                     </div>
-                    <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+
                 </li>
                 <li id="carousel__slide3" class="carousel__slide" tabindex="0">
                     <div class="carousel__snapper">
-                        <img class="game-icon" src="images/fishworld.webp " alt="game1 ">
-
+                        <picture class="game-icon-container">
+                            <img class="game-icon" src="images/fishworld.webp " alt="game1 ">
+                        </picture>
                         <div class="top-games-page-gamelist-info">
                             <h2 class="game-list-h2 ">Fish World</h2>
-                            <p><i>Fighting</i></p><br>
+                            <p><i>Fighting</i></p>
                             <p class="game-list-p ">
                                 Enjoy this fighting game , choose one of the offered teams , and fight with numerous
                                 monsters on the main arena of Arkonium planet.
@@ -328,12 +341,15 @@
                             <p>
                                 Download Now :
                             </p>
-                            <img class="gameslist-buttons-shop " src="images/googlebutton.png " alt="google ">
-                            <img class="gameslist-buttons-shop " src="images/appstore.png " alt="appstore ">
+                            <div class="button-shop">
+                                <img class="gameslist-buttons-shop " src="images/googlebutton.png " alt="google ">
+                                <img class="gameslist-buttons-shop " src="images/appstore.png " alt="appstore ">
+                            </div>
                         </div>
+                        <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
                     </div>
-                    <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+
 
                 </li>
             </ol>
@@ -380,103 +396,165 @@
         <h2 class="new-mobile-games-page-h2">
             Looking for a new game to play? Check this out!
         </h2>
-        <div class="newgames">
-            <!--перша гра-->
-            <div class="new-mobile-games-page-game">
-                <img class="new-mobile-games-page-game-img" src="images/foxgame.webp " alt="foxgame ">
-                <h2 class="new-mobile-games-page-h2">
-                    FEED THE FOX
-                </h2>
-                <p><i>Simulation</i></p>
-                <p class="new-mobile-games-page-game1-p">Your pet is not a kitty or a puppy but a real wild fox .
-                    But look how cute it is ! Take good care of it to keep fox happy.</p>
-                <p>
-                    <strong>Platform:</strong> Androis , iOs
-                </p>
-                <p>
-                    <strong>Price:</strong> $15
-                </p>
-                <p>
-                    <strong>Rating:</strong>4.5
-                </p>
-                <p>
-                    Download Now :
-                </p>
-                <img class="gameslist-buttons-shop " src="images/googlebutton.png " alt="google ">
-                <img class="gameslist-buttons-shop " src="images/appstore.png " alt="appstore ">
-            </div>
-            <!--друга гра-->
-            <div class="new-mobile-games-page-game ">
-                <img class="new-mobile-games-page-game-img" src="images/atlantis.webp " alt="atlantis ">
-                <h2 class="new-mobile-games-page-h2 ">
-                    Atlantis Ruins
-                </h2>
-                <p><i>Puzzle</i></p>
-                <p class="new-mobile-games-page-game2-p ">Countless pirate treasures are hidden in the dephts of the
-                    ocean.Solve the puzzle one by one to be first to find the treasures!</p>
-                <p>
-                    <strong>Platform:</strong> Androis , iOs
-                </p>
-                <p>
-                    <strong>Price:</strong> $15
-                </p>
-                <p>
-                    <strong>Rating:</strong>4.5
-                </p>
-                <p>
-                    Download Now :
-                </p>
-                <img class="gameslist-buttons-shop " src="images/googlebutton.png " alt="google ">
-                <img class="gameslist-buttons-shop " src="images/appstore.png " alt="appstore ">
-            </div>
-            <!--Третя гра
+        <div class="newgames-carousel" aria-label="Gallery">
+            <ol class="newgames-carousel__viewport">
+                <li id="newgames-carousel__slide1" tabindex="0" class="newgames-carousel__slide">
+                    <!--перша гра-->
+                    <div class="newgames-carousel__snapper">
+                        <div class="new-mobile-games-page-game">
+                            <picture class="new-mobile-games-page-game-img-container">
+                                <img class="new-mobile-games-page-game-img" src="images/foxgame.webp " alt="foxgame ">
+                            </picture>
+                            <div class="new-mobile-games-page-game-info">
+                                <h2 class="new-mobile-games-page-h2">
+                                    FEED THE FOX
+                                </h2>
+                                <p><i>Simulation</i></p>
+                                <p class="new-mobile-games-page-game1-p">Your pet is not a kitty or a puppy but a real
+                                    wild
+                                    fox .
+                                    But look how cute it is ! Take good care of it to keep fox happy.</p>
+                                <p>
+                                    <strong>Platform:</strong> Androis , iOs
+                                </p>
+                                <p>
+                                    <strong>Price:</strong> $15
+                                </p>
+                                <p>
+                                    <strong>Rating:</strong>4.5
+                                </p>
+                                <p>
+                                    Download Now :
+                                </p>
+                                <img class="gameslist-buttons-shop " src="images/googlebutton.png " alt="google ">
+                                <img class="gameslist-buttons-shop " src="images/appstore.png " alt="appstore ">
+                            </div>
+                            <a href="#newgames-carousel__slide4" class="newgames-carousel__prev">Go to last slide</a>
+                            <a href="#newgames-carousel__slide2" class="newgames-carousel__next">Go to next slide</a>
+                        </div>
+                    </div>
+                </li>
+                <!--друга гра-->
+                <li id="newgames-carousel__slide2" tabindex="0" class="newgames-carousel__slide">
+                    <div class="newgames-carousel__snapper">
+                        <div class="new-mobile-games-page-game ">
+                            <picture class="new-mobile-games-page-game-img-container"><img
+                                    class="new-mobile-games-page-game-img" src="images/atlantis.webp " alt="atlantis ">
+                            </picture>
+                            <div class="new-mobile-games-page-game-info">
+                                <h2 class="new-mobile-games-page-h2 ">
+                                    Atlantis Ruins
+                                </h2>
+                                <p><i>Puzzle</i></p>
+                                <p class="new-mobile-games-page-game2-p ">Countless pirate treasures are hidden in the
+                                    dephts of
+                                    the
+                                    ocean.Solve the puzzle one by one to be first to find the treasures!</p>
+                                <p>
+                                    <strong>Platform:</strong> Androis , iOs
+                                </p>
+                                <p>
+                                    <strong>Price:</strong> $15
+                                </p>
+                                <p>
+                                    <strong>Rating:</strong>4.5
+                                </p>
+                                <p>
+                                    Download Now :
+                                </p>
+                                <img class="gameslist-buttons-shop " src="images/googlebutton.png " alt="google ">
+                                <img class="gameslist-buttons-shop " src="images/appstore.png " alt="appstore ">
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--Третя гра
          -->
-            <div class="new-mobile-games-page-game ">
-                <img class="new-mobile-games-page-game-img" src="images/shamans.webp " alt="shamans ">
-                <h2 class="new-mobile-games-page-h2 ">
-                    Shamans Jungle
-                </h2>
-                <p><i>Simulation</i></p>
-                <p class="new-mobile-games-page-game3-p ">Your pet is not a kitty or a puppy but a real wild fox .
-                    But look how cute it is ! Take good care of it to keep fox happy.</p>
-                <p>
-                    <strong>Platform:</strong> Androis , iOs
-                </p>
-                <p>
-                    <strong>Price:</strong> $15
-                </p>
-                <p>
-                    <strong>Rating:</strong>4.5
-                </p>
-                <p>
-                    Download Now :
-                </p>
-                <img class="gameslist-buttons-shop " src="images/googlebutton.png " alt="google ">
-                <img class="gameslist-buttons-shop " src="images/appstore.png " alt="appstore ">
-            </div>
-            <div class="new-mobile-games-page-game4 ">
-                <img class="new-mobile-games-page-game-img" src="images/sweetworld.webp " alt="foxgame ">
-                <h2 class="new-mobile-games-page-h2 ">
-                    Sweet World
-                </h2>
-                <p><i>Simulation</i></p>
-                <p class="new-mobile-games-page-p ">Your pet is not a kitty or a puppy but a real wild fox . But
-                    look how cute it is ! Take good care of it to keep fox happy.</p>
-                <p>
-                    <strong>Platform:</strong> Androis , iOs
-                </p>
-                <p>
-                    <strong>Price:</strong> $15
-                </p>
-                <p>
-                    <strong>Rating:</strong>4.5
-                </p>
-                <p>
-                    Download Now :
-                </p>
-                <img class="gameslist-buttons-shop " src="images/googlebutton.png " alt="google ">
-                <img class="gameslist-buttons-shop " src="images/appstore.png " alt="appstore ">
-            </div>
+                </li>
+                <li id="newgames-carousel__slide3" tabindex="0" class="newgames-carousel__slide">
+                    <div class="newgames-carousel__snapper">
+                        <div class="new-mobile-games-page-game ">
+                            <picture class="new-mobile-games-page-game-img-container"><img
+                                    class="new-mobile-games-page-game-img" src="images/shamans.webp " alt="shamans ">
+                            </picture>
+                            <div class="new-mobile-games-page-game-info">
+                                <h2 class="new-mobile-games-page-h2 ">
+                                    Shamans Jungle
+                                </h2>
+                                <p><i>Simulation</i></p>
+                                <p class="new-mobile-games-page-game3-p ">Your pet is not a kitty or a puppy but a real
+                                    wild
+                                    fox
+                                    .
+                                    But look how cute it is ! Take good care of it to keep fox happy.</p>
+                                <p>
+                                    <strong>Platform:</strong> Androis , iOs
+                                </p>
+                                <p>
+                                    <strong>Price:</strong> $15
+                                </p>
+                                <p>
+                                    <strong>Rating:</strong>4.5
+                                </p>
+                                <p>
+                                    Download Now :
+                                </p>
+                                <img class="gameslist-buttons-shop " src="images/googlebutton.png " alt="google ">
+                                <img class="gameslist-buttons-shop " src="images/appstore.png " alt="appstore ">
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+                <li id="newgames-carousel__slide4" tabindex="0" class="newgames-carousel__slide">
+                    <div class="newgames-carousel__snapper">
+                        <div class="new-mobile-games-page-game4 ">
+                            <picture class="new-mobile-games-page-game-img-container"><img
+                                    class="new-mobile-games-page-game-img" src="images/sweetworld.webp " alt="foxgame ">
+                            </picture>
+                            <div class="new-mobile-games-page-game-info">
+                                <h2 class="new-mobile-games-page-h2 ">
+                                    Sweet World
+                                </h2>
+                                <p><i>Simulation</i></p>
+                                <p class="new-mobile-games-page-p ">Your pet is not a kitty or a puppy but a real wild
+                                    fox .
+                                    But
+                                    look how cute it is ! Take good care of it to keep fox happy.</p>
+                                <p>
+                                    <strong>Platform:</strong> Androis , iOs
+                                </p>
+                                <p>
+                                    <strong>Price:</strong> $15
+                                </p>
+                                <p>
+                                    <strong>Rating:</strong>4.5
+                                </p>
+                                <p>
+                                    Download Now :
+                                </p>
+                                <img class="gameslist-buttons-shop " src="images/googlebutton.png " alt="google ">
+                                <img class="gameslist-buttons-shop " src="images/appstore.png " alt="appstore ">
+                            </div>
+                        </div>
+                        <a href="#newgames-carousel__slide3" class="newgames-carousel__prev">Go to previous slide</a>
+                        <a href="#newgames-carousel__slide1" class="newgames-carousel__next">Go to first slide</a>
+                    </div>
+                </li>
+            </ol>
+            <aside class="newgames-carousel__navigation">
+                <ol class="newgames-carousel__navigation-list">
+                    <li class="newgames-carousel__navigation-item">
+                        <a href="#newgames-carousel__slide1" class="newgames-carousel__navigation-button">Go to slide
+                            1</a>
+                    </li>
+
+                    <li class="newgames-carousel__navigation-item">
+                        <a href="#newgames-carousel__slide4" class="newgames-carousel__navigation-button">Go to slide
+                            4</a>
+                    </li>
+                </ol>
+            </aside>
         </div>
     </section>
 
@@ -539,34 +617,284 @@
 
 
     <section class="coming-soon-games-page ">
-        <div class="comingsoongame ">
+        <div class="coming-soon-contrainer">
             <div class="svgcomingsoon ">
-                <img src="images/comingsoon.webp " alt="comingsoon ">
-                <div class="coming-soon-games-newgameinfo ">
-                    <h2 class="coming-soon-games-page-h2 ">
-                        Coming soon in 2021 -Space Adventure
-                    </h2>
-                    <p class="coming-soon-games-page-p-i "><i>Platformer</i></p>
-                    <p class="coming-soon-games-page-p ">Space Adventure will be a brand new colorful cartoonish
-                        platformer with innovative mechanics based on gravity. You play as Hoja, the fearless
-                        austronaut. Pre-order the game right now!</p>
-                    <p>
-                        <strong>Platform:</strong> Androis , iOs
-                    </p>
-                    <p>
-                        <strong>Price:</strong> $15
-                    </p>
-                    <p>
-                        <strong>Rating:</strong>4.5
-                    </p>
-                    <p>
-                        Download Now :
-                    </p>
-                    <img class="gameslist-buttons-shop " src="images/googlebutton.png " alt="google ">
-                    <img class="gameslist-buttons-shop " src="images/appstore.png " alt="appstore ">
-                </div>
+
+                <picture class="comingsoon-contrainer">
+                    <svg class="svg-comingsoon" viewBox="0 0 979 1934" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xlink="http://www.w3.org/1999/xlink">
+                        <defs>
+                            <path
+                                d="M796.598764,0 C841.049148,0 866.958804,5.0033853 894.022616,19.4772701 C919.921603,33.3282002 940.6718,54.0783968 954.52273,79.9773843 C968.996615,107.041196 974,132.950852 974,177.401236 L974,1756.59876 C974,1801.04915 968.996615,1826.9588 954.52273,1854.02262 C940.6718,1879.9216 919.921603,1900.6718 894.022616,1914.52273 C866.958804,1928.99661 841.049148,1934 796.598764,1934 L181.401236,1934 C136.950852,1934 111.041196,1928.99661 83.9773843,1914.52273 C58.0783968,1900.6718 37.3282002,1879.9216 23.4772701,1854.02262 C9.0033853,1826.9588 4,1801.04915 4,1756.59876 L4,177.401236 C4,132.950852 9.0033853,107.041196 23.4772701,79.9773843 C37.3282002,54.0783968 58.0783968,33.3282002 83.9773843,19.4772701 C111.041196,5.0033853 136.950852,0 181.401236,0 L796.598764,0 Z M246,71 L181.401236,71 C144.403208,71 130.986829,74.8522629 117.460903,82.0860072 C103.934977,89.3197516 93.3197516,99.9349774 86.0860072,113.460903 C78.8522629,126.986829 75,140.403208 75,177.401236 L75,177.401236 L75,1756.59876 C75,1793.59679 78.8522629,1807.01317 86.0860072,1820.5391 C93.3197516,1834.06502 103.934977,1844.68025 117.460903,1851.91399 C130.986829,1859.14774 144.403208,1863 181.401236,1863 L181.401236,1863 L796.598764,1863 C833.596792,1863 847.013171,1859.14774 860.539097,1851.91399 C874.065023,1844.68025 884.680248,1834.06502 891.913993,1820.5391 C899.147737,1807.01317 903,1793.59679 903,1756.59876 L903,1756.59876 L903,177.401236 C903,140.403208 899.147737,126.986829 891.913993,113.460903 C884.680248,99.9349774 874.065023,89.3197516 860.539097,82.0860072 C847.013171,74.8522629 833.596792,71 796.598764,71 L796.598764,71 L732,71 C724.820298,71 719,76.8202983 719,84 C718.243408,96.0819092 715.95016,103.875154 712.188116,110.909565 C707.743285,119.220677 701.220677,125.743285 692.909565,130.188116 C684.598454,134.632947 675.26412,137 659.073603,137 L659.073603,137 L318.926397,137 C302.73588,137 293.401546,134.632947 285.090435,130.188116 C276.779323,125.743285 270.256715,119.220677 265.811884,110.909565 C262.04912,103.873809 259.671387,96.1625977 259,84 C259,76.8202983 253.179702,71 246,71 L246,71 Z"
+                                id="iphone11-1630747734758-path-1"></path>
+                            <filter x="-1.0%" y="-0.5%" width="102.1%" height="101.0%" filterUnits="objectBoundingBox"
+                                id="iphone11-1630747734758-filter-4">
+                                <feGaussianBlur stdDeviation="10" in="SourceAlpha" result="shadowBlurInner1">
+                                </feGaussianBlur>
+                                <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+                                <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1"
+                                    k3="1" result="shadowInnerInner1"></feComposite>
+                                <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix"
+                                    in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+                                <feGaussianBlur stdDeviation="4" in="SourceAlpha" result="shadowBlurInner2">
+                                </feGaussianBlur>
+                                <feOffset dx="0" dy="0" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+                                <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1"
+                                    k3="1" result="shadowInnerInner2"></feComposite>
+                                <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix"
+                                    in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+                                <feGaussianBlur stdDeviation="4.5" in="SourceAlpha" result="shadowBlurInner3">
+                                </feGaussianBlur>
+                                <feOffset dx="0" dy="0" in="shadowBlurInner3" result="shadowOffsetInner3"></feOffset>
+                                <feComposite in="shadowOffsetInner3" in2="SourceAlpha" operator="arithmetic" k2="-1"
+                                    k3="1" result="shadowInnerInner3"></feComposite>
+                                <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix"
+                                    in="shadowInnerInner3" result="shadowMatrixInner3"></feColorMatrix>
+                                <feMerge>
+                                    <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                                    <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+                                    <feMergeNode in="shadowMatrixInner3"></feMergeNode>
+                                </feMerge>
+                            </filter>
+                            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%"
+                                id="iphone11-1630747734758-linearGradient-5">
+                                <stop stop-color="#494949" offset="0%"></stop>
+                                <stop stop-color="#2C2C2C" offset="100%"></stop>
+                            </linearGradient>
+                            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%"
+                                id="iphone11-1630747734758-linearGradient-8">
+                                <stop stop-color="#676767" offset="0%"></stop>
+                                <stop stop-color="#000000" offset="2.13301261%"></stop>
+                                <stop stop-color="#000000" offset="97.8505203%"></stop>
+                                <stop stop-color="#676767" offset="100%"></stop>
+                            </linearGradient>
+                            <path
+                                d="M14.4,0 C33.84,0 73.9958203,0 93.6,0 C100.8,0 105.6,1 108,3 L0,3 C2.4,1 7.2,0 14.4,0 Z"
+                                id="iphone11-1630747734758-path-9"></path>
+                            <filter x="-13.2%" y="-0.5%" width="126.4%" height="100.9%" filterUnits="objectBoundingBox"
+                                id="iphone11-1630747734758-filter-14">
+                                <feGaussianBlur stdDeviation="5" in="SourceAlpha" result="shadowBlurInner1">
+                                </feGaussianBlur>
+                                <feOffset dx="-5" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+                                <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1"
+                                    k3="1" result="shadowInnerInner1"></feComposite>
+                                <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.701200181 0"
+                                    type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+                                <feGaussianBlur stdDeviation="6" in="SourceAlpha" result="shadowBlurInner2">
+                                </feGaussianBlur>
+                                <feOffset dx="-5" dy="0" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+                                <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1"
+                                    k3="1" result="shadowInnerInner2"></feComposite>
+                                <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix"
+                                    in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+                                <feMerge>
+                                    <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                                    <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+                                </feMerge>
+                            </filter>
+                            <linearGradient x1="27.1815237%" y1="44.9843764%" x2="50.9733141%" y2="44.9843764%"
+                                id="iphone11-1630747734758-linearGradient-15">
+                                <stop stop-color="#FD8088" offset="0%"></stop>
+                                <stop stop-color="#FD8088" offset="0.734795767%"></stop>
+                                <stop stop-color="#FD8088" offset="100%"></stop>
+                                <stop stop-color="#9A252D" offset="100%"></stop>
+                            </linearGradient>
+                            <path
+                                d="M5.07708653,-1.13686838e-13 C2.27308907,-1.13686838e-13 -1.59872116e-14,2.28782493 -1.59872116e-14,5.11 L-1.59872116e-14,67.89 C-1.59872116e-14,70.7121751 2.27308907,73 5.07708653,73 L7.97827883,73 C7.97827883,69.1603711 8.02715146,3.75336914 7.97827883,-1.13686838e-13 L5.07708653,-1.13686838e-13 Z"
+                                id="iphone11-1630747734758-path-16"></path>
+                            <linearGradient x1="27.1815237%" y1="44.9843764%" x2="50.9733141%" y2="44.9843764%"
+                                id="iphone11-1630747734758-linearGradient-18">
+                                <stop stop-color="#FD8088" offset="0%"></stop>
+                                <stop stop-color="#FD8088" offset="0.734795767%"></stop>
+                                <stop stop-color="#FD8088" offset="100%"></stop>
+                                <stop stop-color="#9A252D" offset="100%"></stop>
+                            </linearGradient>
+                            <path
+                                d="M5.07708653,131 C3.42635309,131.400004 1.446878,132.424335 0.389913763,133.879331 C0.172205171,134.179024 -1.59872116e-14,135.127207 -1.59872116e-14,135.401336 C-1.59872116e-14,149.158772 -1.59872116e-14,191.061698 -1.59872116e-14,261.110115 C-1.59872116e-14,261.402743 0.242384723,262.881064 0.390795772,263.239571 C1.24612074,265.305725 2.73226301,265.805561 5.07708653,267 L7.97827883,267 C7.97827883,263.235115 8.02715146,134.680304 7.97827883,131 L5.07708653,131 Z"
+                                id="iphone11-1630747734758-path-19"></path>
+                            <path
+                                d="M5.07708653,299 C3.42635309,299.400004 1.446878,300.424335 0.389913763,301.879331 C0.172205171,302.179024 -1.59872116e-14,303.127207 -1.59872116e-14,303.401336 C-1.59872116e-14,317.158772 -1.59872116e-14,359.061698 -1.59872116e-14,429.110115 C-1.59872116e-14,429.402743 0.242384723,430.881064 0.390795772,431.239571 C1.24612074,433.305725 2.73226301,433.805561 5.07708653,435 L7.97827883,435 C7.97827883,431.235115 8.02715146,302.680304 7.97827883,299 L5.07708653,299 Z"
+                                id="iphone11-1630747734758-path-21"></path>
+                            <filter x="-43.8%" y="-2.6%" width="187.5%" height="105.1%" filterUnits="objectBoundingBox"
+                                id="iphone11-1630747734758-filter-22">
+                                <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1">
+                                </feGaussianBlur>
+                                <feOffset dx="0" dy="5" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+                                <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1"
+                                    k3="1" result="shadowInnerInner1"></feComposite>
+                                <feColorMatrix
+                                    values="0 0 0 0 0.380392157   0 0 0 0 0.360784314   0 0 0 0 0.439215686  0 0 0 1 0"
+                                    type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+                                <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner2">
+                                </feGaussianBlur>
+                                <feOffset dx="0" dy="-5" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+                                <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1"
+                                    k3="1" result="shadowInnerInner2"></feComposite>
+                                <feColorMatrix
+                                    values="0 0 0 0 0.332491595   0 0 0 0 0.314557805   0 0 0 0 0.382706207  0 0 0 1 0"
+                                    type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+                                <feMerge>
+                                    <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                                    <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+                                </feMerge>
+                            </filter>
+                            <linearGradient x1="34.5494938%" y1="44.9843764%" x2="36.0937316%" y2="44.9843764%"
+                                id="iphone11-1630747734758-linearGradient-23">
+                                <stop stop-color="#9A252D" offset="0%"></stop>
+                                <stop stop-color="#FD8088" offset="100%"></stop>
+                            </linearGradient>
+                            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%"
+                                id="iphone11-1630747734758-linearGradient-24">
+                                <stop stop-color="#801820" offset="0%"></stop>
+                                <stop stop-color="#000000" stop-opacity="0" offset="9.51210679%"></stop>
+                                <stop stop-color="#000000" stop-opacity="0" offset="82.4227877%"></stop>
+                                <stop stop-color="#8C1B24" stop-opacity="0.99255548" offset="100%"></stop>
+                            </linearGradient>
+                            <path
+                                d="M976.077087,177 C974.426353,177.395992 972.446878,178.410047 971.389914,179.850448 C971.172205,180.147135 971,181.085806 971,181.357186 C971,194.976619 971,315.823448 971,385.169198 C971,385.45889 971.242385,386.922382 971.390796,387.277293 C972.246121,389.322721 973.732263,389.817543 976.077087,391 L978.978279,391 C978.978279,387.272881 979.027151,180.643387 978.978279,177 L976.077087,177 Z"
+                                id="iphone11-1630747734758-path-25"></path>
+                            <rect id="iphone11-1630747734758-path-27" x="0" y="0" width="112" height="18" rx="9"></rect>
+                            <rect id="iphone11-1630747734758-path-29" x="0" y="0" width="112" height="18" rx="9"></rect>
+                        </defs>
+                        <g id="iphone11-1630747734758-Apple-iPhone-11" stroke="none" stroke-width="1" fill="none"
+                            fill-rule="evenodd">
+                            <g id="iphone11-1630747734758-">
+                                <g id="iphone11-1630747734758-CombinedShape4" fill-rule="nonzero">
+                                    <path fill="#EA646C"
+                                        d="M796.598764,0 C841.049148,0 866.958804,5.0033853 894.022616,19.4772701 C919.921603,33.3282002 940.6718,54.0783968 954.52273,79.9773843 C968.996615,107.041196 974,132.950852 974,177.401236 L974,1756.59876 C974,1801.04915 968.996615,1826.9588 954.52273,1854.02262 C940.6718,1879.9216 919.921603,1900.6718 894.022616,1914.52273 C866.958804,1928.99661 841.049148,1934 796.598764,1934 L181.401236,1934 C136.950852,1934 111.041196,1928.99661 83.9773843,1914.52273 C58.0783968,1900.6718 37.3282002,1879.9216 23.4772701,1854.02262 C9.0033853,1826.9588 4,1801.04915 4,1756.59876 L4,177.401236 C4,132.950852 9.0033853,107.041196 23.4772701,79.9773843 C37.3282002,54.0783968 58.0783968,33.3282002 83.9773843,19.4772701 C111.041196,5.0033853 136.950852,0 181.401236,0 L796.598764,0 Z M246,71 L181.401236,71 C144.403208,71 130.986829,74.8522629 117.460903,82.0860072 C103.934977,89.3197516 93.3197516,99.9349774 86.0860072,113.460903 C78.8522629,126.986829 75,140.403208 75,177.401236 L75,177.401236 L75,1756.59876 C75,1793.59679 78.8522629,1807.01317 86.0860072,1820.5391 C93.3197516,1834.06502 103.934977,1844.68025 117.460903,1851.91399 C130.986829,1859.14774 144.403208,1863 181.401236,1863 L181.401236,1863 L796.598764,1863 C833.596792,1863 847.013171,1859.14774 860.539097,1851.91399 C874.065023,1844.68025 884.680248,1834.06502 891.913993,1820.5391 C899.147737,1807.01317 903,1793.59679 903,1756.59876 L903,1756.59876 L903,177.401236 C903,140.403208 899.147737,126.986829 891.913993,113.460903 C884.680248,99.9349774 874.065023,89.3197516 860.539097,82.0860072 C847.013171,74.8522629 833.596792,71 796.598764,71 L796.598764,71 L732,71 C724.820298,71 719,76.8202983 719,84 C718.243408,96.0819092 715.95016,103.875154 712.188116,110.909565 C707.743285,119.220677 701.220677,125.743285 692.909565,130.188116 C684.598454,134.632947 675.26412,137 659.073603,137 L659.073603,137 L318.926397,137 C302.73588,137 293.401546,134.632947 285.090435,130.188116 C276.779323,125.743285 270.256715,119.220677 265.811884,110.909565 C262.04912,103.873809 259.671387,96.1625977 259,84 C259,76.8202983 253.179702,71 246,71 L246,71 Z"
+                                        id="iphone11-1630747734758-path-1"></path>
+                                    <path fill-opacity="0.05" fill="url(#iphone11-1630747734758-pattern-2)"
+                                        d="M796.598764,0 C841.049148,0 866.958804,5.0033853 894.022616,19.4772701 C919.921603,33.3282002 940.6718,54.0783968 954.52273,79.9773843 C968.996615,107.041196 974,132.950852 974,177.401236 L974,1756.59876 C974,1801.04915 968.996615,1826.9588 954.52273,1854.02262 C940.6718,1879.9216 919.921603,1900.6718 894.022616,1914.52273 C866.958804,1928.99661 841.049148,1934 796.598764,1934 L181.401236,1934 C136.950852,1934 111.041196,1928.99661 83.9773843,1914.52273 C58.0783968,1900.6718 37.3282002,1879.9216 23.4772701,1854.02262 C9.0033853,1826.9588 4,1801.04915 4,1756.59876 L4,177.401236 C4,132.950852 9.0033853,107.041196 23.4772701,79.9773843 C37.3282002,54.0783968 58.0783968,33.3282002 83.9773843,19.4772701 C111.041196,5.0033853 136.950852,0 181.401236,0 L796.598764,0 Z M246,71 L181.401236,71 C144.403208,71 130.986829,74.8522629 117.460903,82.0860072 C103.934977,89.3197516 93.3197516,99.9349774 86.0860072,113.460903 C78.8522629,126.986829 75,140.403208 75,177.401236 L75,177.401236 L75,1756.59876 C75,1793.59679 78.8522629,1807.01317 86.0860072,1820.5391 C93.3197516,1834.06502 103.934977,1844.68025 117.460903,1851.91399 C130.986829,1859.14774 144.403208,1863 181.401236,1863 L181.401236,1863 L796.598764,1863 C833.596792,1863 847.013171,1859.14774 860.539097,1851.91399 C874.065023,1844.68025 884.680248,1834.06502 891.913993,1820.5391 C899.147737,1807.01317 903,1793.59679 903,1756.59876 L903,1756.59876 L903,177.401236 C903,140.403208 899.147737,126.986829 891.913993,113.460903 C884.680248,99.9349774 874.065023,89.3197516 860.539097,82.0860072 C847.013171,74.8522629 833.596792,71 796.598764,71 L796.598764,71 L732,71 C724.820298,71 719,76.8202983 719,84 C718.243408,96.0819092 715.95016,103.875154 712.188116,110.909565 C707.743285,119.220677 701.220677,125.743285 692.909565,130.188116 C684.598454,134.632947 675.26412,137 659.073603,137 L659.073603,137 L318.926397,137 C302.73588,137 293.401546,134.632947 285.090435,130.188116 C276.779323,125.743285 270.256715,119.220677 265.811884,110.909565 C262.04912,103.873809 259.671387,96.1625977 259,84 C259,76.8202983 253.179702,71 246,71 L246,71 Z"
+                                        id="iphone11-1630747734758-path-1"></path>
+                                    <path fill="black" fill-opacity="1" filter="url(#iphone11-1630747734758-filter-4)"
+                                        d="M796.598764,0 C841.049148,0 866.958804,5.0033853 894.022616,19.4772701 C919.921603,33.3282002 940.6718,54.0783968 954.52273,79.9773843 C968.996615,107.041196 974,132.950852 974,177.401236 L974,1756.59876 C974,1801.04915 968.996615,1826.9588 954.52273,1854.02262 C940.6718,1879.9216 919.921603,1900.6718 894.022616,1914.52273 C866.958804,1928.99661 841.049148,1934 796.598764,1934 L181.401236,1934 C136.950852,1934 111.041196,1928.99661 83.9773843,1914.52273 C58.0783968,1900.6718 37.3282002,1879.9216 23.4772701,1854.02262 C9.0033853,1826.9588 4,1801.04915 4,1756.59876 L4,177.401236 C4,132.950852 9.0033853,107.041196 23.4772701,79.9773843 C37.3282002,54.0783968 58.0783968,33.3282002 83.9773843,19.4772701 C111.041196,5.0033853 136.950852,0 181.401236,0 L796.598764,0 Z M246,71 L181.401236,71 C144.403208,71 130.986829,74.8522629 117.460903,82.0860072 C103.934977,89.3197516 93.3197516,99.9349774 86.0860072,113.460903 C78.8522629,126.986829 75,140.403208 75,177.401236 L75,177.401236 L75,1756.59876 C75,1793.59679 78.8522629,1807.01317 86.0860072,1820.5391 C93.3197516,1834.06502 103.934977,1844.68025 117.460903,1851.91399 C130.986829,1859.14774 144.403208,1863 181.401236,1863 L181.401236,1863 L796.598764,1863 C833.596792,1863 847.013171,1859.14774 860.539097,1851.91399 C874.065023,1844.68025 884.680248,1834.06502 891.913993,1820.5391 C899.147737,1807.01317 903,1793.59679 903,1756.59876 L903,1756.59876 L903,177.401236 C903,140.403208 899.147737,126.986829 891.913993,113.460903 C884.680248,99.9349774 874.065023,89.3197516 860.539097,82.0860072 C847.013171,74.8522629 833.596792,71 796.598764,71 L796.598764,71 L732,71 C724.820298,71 719,76.8202983 719,84 C718.243408,96.0819092 715.95016,103.875154 712.188116,110.909565 C707.743285,119.220677 701.220677,125.743285 692.909565,130.188116 C684.598454,134.632947 675.26412,137 659.073603,137 L659.073603,137 L318.926397,137 C302.73588,137 293.401546,134.632947 285.090435,130.188116 C276.779323,125.743285 270.256715,119.220677 265.811884,110.909565 C262.04912,103.873809 259.671387,96.1625977 259,84 C259,76.8202983 253.179702,71 246,71 L246,71 Z"
+                                        id="iphone11-1630747734758-path-1"></path>
+                                </g>
+                                <g id="iphone11-1630747734758-CombinedShape3" fill-rule="nonzero">
+                                    <use fill="black" fill-opacity="1" filter="url(#iphone11-1630747734758-filter-7)"
+                                        href="#iphone11-1630747734758-path-6"></use>
+                                    <path stroke-opacity="0.2" stroke="#000000" stroke-width="2"
+                                        d="M796.598764,19 C838.231385,19 861.152483,23.4446441 885.062237,36.2317209 C907.650124,48.3118548 925.688145,66.3498761 937.768279,88.9377626 C950.555356,112.847517 955,135.768615 955,177.401236 L955,1756.59876 C955,1798.23138 950.555356,1821.15248 937.768279,1845.06224 C925.688145,1867.65012 907.650124,1885.68815 885.062237,1897.76828 C861.152483,1910.55536 838.231385,1915 796.598764,1915 L181.401236,1915 C139.768615,1915 116.847517,1910.55536 92.9377626,1897.76828 C70.3498761,1885.68815 52.3118548,1867.65012 40.2317209,1845.06224 C27.4446441,1821.15248 23,1798.23138 23,1756.59876 L23,177.401236 C23,135.768615 27.4446441,112.847517 40.2317209,88.9377626 C52.3118548,66.3498761 70.3498761,48.3118548 92.9377626,36.2317209 C116.847517,23.4446441 139.768615,19 181.401236,19 L796.598764,19 Z M246,72 L181.401236,72 C147.820311,72 133.139599,74.8349763 117.932502,82.9678204 C104.580845,90.1083649 94.1083649,100.580845 86.9678204,113.932502 C78.8349763,129.139599 76,143.820311 76,177.401236 L76,1756.59876 C76,1790.17969 78.8349763,1804.8604 86.9678204,1820.0675 C94.1083649,1833.41916 104.580845,1843.89164 117.932502,1851.03218 C133.139599,1859.16502 147.820311,1862 181.401236,1862 L796.598764,1862 C830.179689,1862 844.860401,1859.16502 860.067498,1851.03218 C873.419155,1843.89164 883.891635,1833.41916 891.03218,1820.0675 C899.165024,1804.8604 902,1790.17969 902,1756.59876 L902,177.401236 C902,143.820311 899.165024,129.139599 891.03218,113.932502 C883.891635,100.580845 873.419155,90.1083649 860.067498,82.9678204 C844.860401,74.8349763 830.179689,72 796.598764,72 L732,72 C725.372583,72 720,77.372583 719.998045,84.0624994 C719.27183,95.6593333 717.147046,103.757618 713.069929,111.381164 C708.531899,119.866544 701.866544,126.531899 693.381164,131.069929 C684.319265,135.916286 674.519159,138 659.073603,138 L318.926397,138 C303.480841,138 293.680735,135.916286 284.618836,131.069929 C276.133456,126.531899 269.468101,119.866544 264.930071,111.381164 C260.767692,103.598194 258.637267,95.5720713 258,84 C258,77.372583 252.627417,72 246,72 Z"
+                                        fill="url(#iphone11-1630747734758-linearGradient-5)" fill-rule="evenodd"></path>
+                                </g>
+                                <path
+                                    d="M796.598764,30 C836.520207,30 857.751136,34.0998815 879.87465,45.9316661 C900.545583,56.9866022 917.013398,73.4544168 928.068334,94.1253501 C939.900118,116.248864 944,137.479793 944,177.401236 L944,1756.59876 C944,1796.52021 939.900118,1817.75114 928.068334,1839.87465 C917.013398,1860.54558 900.545583,1877.0134 879.87465,1888.06833 C857.751136,1899.90012 836.520207,1904 796.598764,1904 L181.401236,1904 C141.479793,1904 120.248864,1899.90012 98.1253501,1888.06833 C77.4544168,1877.0134 60.9866022,1860.54558 49.9316661,1839.87465 C38.0998815,1817.75114 34,1796.52021 34,1756.59876 L34,177.401236 C34,137.479793 38.0998815,116.248864 49.9316661,94.1253501 C60.9866022,73.4544168 77.4544168,56.9866022 98.1253501,45.9316661 C120.248864,34.0998815 141.479793,30 181.401236,30 L796.598764,30 Z M246,71 L181.401236,71 C144.403208,71 130.986829,74.8522629 117.460903,82.0860072 C103.934977,89.3197516 93.3197516,99.9349774 86.0860072,113.460903 C78.8522629,126.986829 75,140.403208 75,177.401236 L75,177.401236 L75,1756.59876 C75,1793.59679 78.8522629,1807.01317 86.0860072,1820.5391 C93.3197516,1834.06502 103.934977,1844.68025 117.460903,1851.91399 C130.986829,1859.14774 144.403208,1863 181.401236,1863 L181.401236,1863 L796.598764,1863 C833.596792,1863 847.013171,1859.14774 860.539097,1851.91399 C874.065023,1844.68025 884.680248,1834.06502 891.913993,1820.5391 C899.147737,1807.01317 903,1793.59679 903,1756.59876 L903,1756.59876 L903,177.401236 C903,140.403208 899.147737,126.986829 891.913993,113.460903 C884.680248,99.9349774 874.065023,89.3197516 860.539097,82.0860072 C847.013171,74.8522629 833.596792,71 796.598764,71 L796.598764,71 L732,71 C724.820298,71 719,76.8202983 719,84 C718.243408,96.0819092 715.95016,103.875154 712.188116,110.909565 C707.743285,119.220677 701.220677,125.743285 692.909565,130.188116 C684.598454,134.632947 675.26412,137 659.073603,137 L659.073603,137 L318.926397,137 C302.73588,137 293.401546,134.632947 285.090435,130.188116 C276.779323,125.743285 270.256715,119.220677 265.811884,110.909565 C262.04912,103.873809 259.671387,96.1625977 259,84 C259,76.8202983 253.179702,71 246,71 L246,71 Z"
+                                    id="iphone11-1630747734758-CombinedShape2"
+                                    fill="url(#iphone11-1630747734758-linearGradient-8)" fill-rule="nonzero"></path>
+                                <path
+                                    d="M796.598764,42 C836.520207,42 857.751136,46.0473751 879.87465,57.7276319 C900.545583,68.6409894 917.013398,84.8979034 928.068334,105.304108 C939.900118,127.144289 944,148.103317 944,187.513493 L944,1746.48651 C944,1785.89668 939.900118,1806.85571 928.068334,1828.69589 C917.013398,1849.1021 900.545583,1865.35901 879.87465,1876.27237 C857.751136,1887.95262 836.520207,1892 796.598764,1892 L181.401236,1892 C141.479793,1892 120.248864,1887.95262 98.1253501,1876.27237 C77.4544168,1865.35901 60.9866022,1849.1021 49.9316661,1828.69589 C38.0998815,1806.85571 34,1785.89668 34,1746.48651 L34,187.513493 C34,148.103317 38.0998815,127.144289 49.9316661,105.304108 C60.9866022,84.8979034 77.4544168,68.6409894 98.1253501,57.7276319 C120.248864,46.0473751 141.479793,42 181.401236,42 L796.598764,42 Z M246,71 L181.401236,71 C144.403208,71 130.986829,74.8522629 117.460903,82.0860072 C103.934977,89.3197516 93.3197516,99.9349774 86.0860072,113.460903 C78.8522629,126.986829 75,140.403208 75,177.401236 L75,177.401236 L75,1756.59876 C75,1793.59679 78.8522629,1807.01317 86.0860072,1820.5391 C93.3197516,1834.06502 103.934977,1844.68025 117.460903,1851.91399 C130.986829,1859.14774 144.403208,1863 181.401236,1863 L181.401236,1863 L796.598764,1863 C833.596792,1863 847.013171,1859.14774 860.539097,1851.91399 C874.065023,1844.68025 884.680248,1834.06502 891.913993,1820.5391 C899.147737,1807.01317 903,1793.59679 903,1756.59876 L903,1756.59876 L903,177.401236 C903,140.403208 899.147737,126.986829 891.913993,113.460903 C884.680248,99.9349774 874.065023,89.3197516 860.539097,82.0860072 C847.013171,74.8522629 833.596792,71 796.598764,71 L796.598764,71 L732,71 C724.820298,71 719,76.8202983 719,84 C718.243408,96.0819092 715.95016,103.875154 712.188116,110.909565 C707.743285,119.220677 701.220677,125.743285 692.909565,130.188116 C684.598454,134.632947 675.26412,137 659.073603,137 L659.073603,137 L318.926397,137 C302.73588,137 293.401546,134.632947 285.090435,130.188116 C276.779323,125.743285 270.256715,119.220677 265.811884,110.909565 C262.04912,103.873809 259.671387,96.1625977 259,84 C259,76.8202983 253.179702,71 246,71 L246,71 Z"
+                                    id="iphone11-1630747734758-CombinedShape1" fill="#000000" fill-rule="nonzero">
+                                </path>
+                                <g id="iphone11-1630747734758-Plug" transform="translate(436.000000, 1931.000000)">
+                                    <g>
+                                        <use fill="#61161C" fill-rule="evenodd" href="#iphone11-1630747734758-path-9">
+                                        </use>
+                                        <use fill="black" fill-opacity="1"
+                                            filter="url(#iphone11-1630747734758-filter-10)"
+                                            href="#iphone11-1630747734758-path-9"></use>
+                                    </g>
+                                </g>
+                                <g id="iphone11-1630747734758-GlassGlare" transform="translate(34.000000, 57.000000)">
+                                    <g id="iphone11-1630747734758-Glare2">
+                                        <use fill-opacity="0.8" fill="#FFFFFF" fill-rule="evenodd"
+                                            href="#iphone11-1630747734758-path-11"></use>
+                                        <use fill="black" fill-opacity="1"
+                                            filter="url(#iphone11-1630747734758-filter-12)"
+                                            href="#iphone11-1630747734758-path-11"></use>
+                                    </g>
+                                    <g id="iphone11-1630747734758-Glare1"
+                                        transform="translate(877.852472, 915.608302) scale(-1, 1) translate(-877.852472, -915.608302) ">
+                                        <use fill-opacity="0.8" fill="#FFFFFF" fill-rule="evenodd"
+                                            href="#iphone11-1630747734758-path-13"></use>
+                                        <use fill="black" fill-opacity="1"
+                                            filter="url(#iphone11-1630747734758-filter-14)"
+                                            href="#iphone11-1630747734758-path-13"></use>
+                                    </g>
+                                </g>
+                                <g id="iphone11-1630747734758-AntennaBands" transform="translate(4.000000, 190.000000)"
+                                    fill="#821A1D" opacity="0.602807971">
+                                    <rect id="iphone11-1630747734758-Antenna-Band4" x="0" y="0" width="20" height="19">
+                                    </rect>
+                                    <rect id="iphone11-1630747734758-Antenna-Band3" x="950" y="0" width="20"
+                                        height="19">
+                                    </rect>
+                                    <rect id="iphone11-1630747734758-Antenna-Band2" x="0" y="1535" width="20"
+                                        height="19">
+                                    </rect>
+                                    <rect id="iphone11-1630747734758-Antenna-Band1" x="950" y="1535" width="20"
+                                        height="19">
+                                    </rect>
+                                </g>
+                                <g id="iphone11-1630747734758-Buttons" transform="translate(0.000000, 264.000000)">
+                                    <g id="iphone11-1630747734758-Mute">
+                                        <path fill="url(#iphone11-1630747734758-linearGradient-15)" fill-rule="evenodd"
+                                            d="M5.07708653,-1.13686838e-13 C2.27308907,-1.13686838e-13 -1.59872116e-14,2.28782493 -1.59872116e-14,5.11 L-1.59872116e-14,67.89 C-1.59872116e-14,70.7121751 2.27308907,73 5.07708653,73 L7.97827883,73 C7.97827883,69.1603711 8.02715146,3.75336914 7.97827883,-1.13686838e-13 L5.07708653,-1.13686838e-13 Z"
+                                            id="iphone11-1630747734758-path-16"></path>
+                                        <path fill="black" fill-opacity="1"
+                                            filter="url(#iphone11-1630747734758-filter-17)"
+                                            d="M5.07708653,-1.13686838e-13 C2.27308907,-1.13686838e-13 -1.59872116e-14,2.28782493 -1.59872116e-14,5.11 L-1.59872116e-14,67.89 C-1.59872116e-14,70.7121751 2.27308907,73 5.07708653,73 L7.97827883,73 C7.97827883,69.1603711 8.02715146,3.75336914 7.97827883,-1.13686838e-13 L5.07708653,-1.13686838e-13 Z"
+                                            id="iphone11-1630747734758-path-16"></path>
+                                    </g>
+                                    <g id="iphone11-1630747734758-Volume2">
+                                        <path fill="url(#iphone11-1630747734758-linearGradient-18)" fill-rule="evenodd"
+                                            d="M5.07708653,131 C3.42635309,131.400004 1.446878,132.424335 0.389913763,133.879331 C0.172205171,134.179024 -1.59872116e-14,135.127207 -1.59872116e-14,135.401336 C-1.59872116e-14,149.158772 -1.59872116e-14,191.061698 -1.59872116e-14,261.110115 C-1.59872116e-14,261.402743 0.242384723,262.881064 0.390795772,263.239571 C1.24612074,265.305725 2.73226301,265.805561 5.07708653,267 L7.97827883,267 C7.97827883,263.235115 8.02715146,134.680304 7.97827883,131 L5.07708653,131 Z"
+                                            id="iphone11-1630747734758-path-19"></path>
+                                        <path fill="black" fill-opacity="1"
+                                            filter="url(#iphone11-1630747734758-filter-20)"
+                                            d="M5.07708653,131 C3.42635309,131.400004 1.446878,132.424335 0.389913763,133.879331 C0.172205171,134.179024 -1.59872116e-14,135.127207 -1.59872116e-14,135.401336 C-1.59872116e-14,149.158772 -1.59872116e-14,191.061698 -1.59872116e-14,261.110115 C-1.59872116e-14,261.402743 0.242384723,262.881064 0.390795772,263.239571 C1.24612074,265.305725 2.73226301,265.805561 5.07708653,267 L7.97827883,267 C7.97827883,263.235115 8.02715146,134.680304 7.97827883,131 L5.07708653,131 Z"
+                                            id="iphone11-1630747734758-path-19"></path>
+                                    </g>
+                                    <g id="iphone11-1630747734758-Volume1">
+                                        <path fill="url(#iphone11-1630747734758-linearGradient-18)" fill-rule="evenodd"
+                                            d="M5.07708653,299 C3.42635309,299.400004 1.446878,300.424335 0.389913763,301.879331 C0.172205171,302.179024 -1.59872116e-14,303.127207 -1.59872116e-14,303.401336 C-1.59872116e-14,317.158772 -1.59872116e-14,359.061698 -1.59872116e-14,429.110115 C-1.59872116e-14,429.402743 0.242384723,430.881064 0.390795772,431.239571 C1.24612074,433.305725 2.73226301,433.805561 5.07708653,435 L7.97827883,435 C7.97827883,431.235115 8.02715146,302.680304 7.97827883,299 L5.07708653,299 Z"
+                                            id="iphone11-1630747734758-path-21"></path>
+                                        <path fill="black" fill-opacity="0.5"
+                                            filter="url(#iphone11-1630747734758-filter-22)"
+                                            d="M5.07708653,299 C3.42635309,299.400004 1.446878,300.424335 0.389913763,301.879331 C0.172205171,302.179024 -1.59872116e-14,303.127207 -1.59872116e-14,303.401336 C-1.59872116e-14,317.158772 -1.59872116e-14,359.061698 -1.59872116e-14,429.110115 C-1.59872116e-14,429.402743 0.242384723,430.881064 0.390795772,431.239571 C1.24612074,433.305725 2.73226301,433.805561 5.07708653,435 L7.97827883,435 C7.97827883,431.235115 8.02715146,302.680304 7.97827883,299 L5.07708653,299 Z"
+                                            id="iphone11-1630747734758-path-21"></path>
+                                    </g>
+                                    <g id="iphone11-1630747734758-Siri"
+                                        transform="translate(975.000000, 284.000000) scale(-1, 1) translate(-975.000000, -284.000000) ">
+                                        <use fill="url(#iphone11-1630747734758-linearGradient-23)" fill-rule="evenodd"
+                                            href="#iphone11-1630747734758-path-25"></use>
+                                        <use fill-opacity="0.4" fill="url(#iphone11-1630747734758-linearGradient-24)"
+                                            fill-rule="evenodd" href="#iphone11-1630747734758-path-25"></use>
+                                        <use fill="black" fill-opacity="1"
+                                            filter="url(#iphone11-1630747734758-filter-26)"
+                                            href="#iphone11-1630747734758-path-25"></use>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+
+                </picture>
+            </div>
+            <div class="coming-soon-games-newgameinfo ">
+                <h2 class="coming-soon-games-page-h2 ">
+                    Coming soon in 2021 -Space Adventure
+                </h2>
+                <p class="coming-soon-games-page-p-i "><i>Platformer</i></p>
+                <p class="coming-soon-games-page-p ">Space Adventure will be a brand new colorful cartoonish
+                    platformer with innovative mechanics based on gravity. You play as Hoja, the fearless
+                    austronaut. Pre-order the game right now!</p>
+                <p>
+                    <strong>Platform:</strong> Androis , iOs
+                </p>
+                <p>
+                    <strong>Price:</strong> $15
+                </p>
+                <p>
+                    <strong>Rating:</strong>4.5
+                </p>
+                <p>
+                    Download Now :
+                </p>
+                <img class="gameslist-buttons-shop " src="images/googlebutton.png " alt="google ">
+                <img class="gameslist-buttons-shop " src="images/appstore.png " alt="appstore ">
             </div>
         </div>
+
     </section>
 
     <section class="testimonials-page " id="testimonials">
@@ -1152,7 +1480,11 @@
             </div>
         </div>
     </section>
-
+    <section class="space-page">
+        <div class="space-page-container">
+            
+        </div>
+    </section>
     <section class="footer-page ">
         <footer>
             <div class="footer-page-logo ">
