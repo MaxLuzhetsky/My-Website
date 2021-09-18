@@ -48,22 +48,31 @@
       padding: 0;
       list-style-type: none;
   }
-  .testimonials-page-carousel {
+  .our-team-page-ul-creators-carousel {
       
-     width: 100%;
       height: auto;
-      min-height: 600px;
-      position: relative;
       max-width: 1200px;
+      position: relative;
+     
       filter: drop-shadow(0 0 10px #0003);
       perspective: 100px;
       padding: 0 40px 0 40px;
       margin: auto;
       overflow-x: hidden;
   overflow-y: hidden;
+  min-height: 500px;
+  @media screen and (min-width: 480px) { 
+    width: 480px; 
+  } 
+  @media screen and (min-width: 768px) { 
+    width: 768px; 
+  } 
+  @media screen and (min-width: 1200px) { 
+    width: 1200px; 
+  } 
     }
     
-    .testimonials-page-carousel__viewport {
+    .our-team-page-ul-creators-carousel__viewport {
       position: absolute;
       top: 0;
       right: 0;
@@ -81,47 +90,34 @@
       list-style: none;
       list-style-type: disc;
       max-width: 1200px;
-      
+      max-height: 700px;
       margin-bottom: 0;
       margin-top: 0;
       
     }
     
-    .testimonials-page-carousel__slide {
+    .our-team-page-ul-creators-carousel__slide {
       position: relative;
       flex: 0 0 100%;
       width: 100%;
       height: auto;
-      max-width: 400px;
+      max-width: 35%;
       counter-increment: item;
       display: flex;
       flex-direction: column;
+      text-align: center;
       
     }
-    .testimonials-page-carousel__slide {
-      position: relative;
-      flex: 0 0 100%;
-      width: 100%;
-      height: auto;
-      background-color: none;
-      counter-increment: item;
-      display: flex;
-      max-width: 1200px;
-    }
     
-    .testimonials-page-carousel__slide:nth-child(even) {
+   
+    
+    .our-team-page-ul-creators-carousel__slide:nth-child(even) {
       background-color: none;
     }
     
-    .testimonials-page-carousel__slide:before {
-      content: counter(item);
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin: auto;
-    }
+   
     
-    .testimonials-page-carousel__snapper {
+    .our-team-page-ul-creators-carousel__snapper {
       position: absolute;
       top: 0;
       left: 0;
@@ -131,7 +127,6 @@
       
       display: flex;
       flex-direction: column;
-      justify-content: center;
       
       
       
@@ -139,30 +134,30 @@
     }
     
     @media (hover: hover) {
-      .testimonials-page-carousel__snapper {
-        animation-name: tonext, snap;
+      .our-team-page-ul-creators-carousel__snapper {
+        animation-name: slide;
         animation-timing-function: ease;
         animation-duration: 5s;
         animation-iteration-count: infinite;
       }
     
-      .testimonials-page-carousel__slide:last-child .carousel__snapper {
+      .our-team-page-ul-creators-carousel__slide:last-child .carousel__snapper {
         animation-name: tostart, snap;
       }
     }
     
     @media (prefers-reduced-motion: reduce) {
-      .testimonials-page-carousel__snapper {
+      .our-team-page-ul-creators-carousel__snapper {
         animation-name: none;
       }
     }
     
-    .testimonials-page-carousel:hover .carousel__snapper,
-    .testimonials-page-carousel:focus-within .carousel__snapper {
+    .our-team-page-ul-creators-carousel:hover .carousel__snapper,
+    .our-team-page-ul-creators-carousel:focus-within .carousel__snapper {
       animation-name: none;
     }
     
-    .testimonials-page-carousel__navigation {
+    .our-team-page-ul-creators-carousel__navigation {
       position: absolute;
       
       right: 0;
@@ -171,12 +166,12 @@
       text-align: center;
     }
     
-    .testimonials-page-carousel__navigation-list,
-    .testimonials-page-carousel__navigation-item {
+    .our-team-page-ul-creators-carousel__navigation-list,
+    .our-team-page-ul-creators-carousel__navigation-item {
       display: inline-block;
     }
     
-    .testimonials-page-carousel__navigation-button {
+    .our-team-page-ul-creators-carousel__navigation-button {
       display: inline-block;
       width: 1.5rem;
       height: 1.5rem;
@@ -184,15 +179,15 @@
       background-clip: content-box;
       border: 0.25rem solid transparent;
       border-radius: 50%;
-      font-size: 0;
+      font-size:6px;
       transition: transform 0.1s;
       margin: auto;
     }
     
-    .testimonials-page-carousel::before,
-    .testimonials-page-carousel::after,
-    .testimonials-page-carousel__prev,
-    .testimonials-page-carousel__next {
+    .our-team-page-ul-creators-carousel::before,
+    .our-team-page-ul-creators-carousel::after,
+    .our-team-page-ul-creators-carousel__prev,
+    .our-team-page-ul-creators-carousel__next {
       position: absolute;
       top: 0;
       margin-top:20%;
@@ -206,18 +201,18 @@
       
     }
     
-    .testimonials-page-carousel::before,
-    .testimonials-page-carousel__prev {
+    .our-team-page-ul-creators-carousel::before,
+    .our-team-page-ul-creators-carousel__prev {
       left: -1rem;
     }
     
-    .testimonials-page-carousel::after,
-    .testimonials-page-carousel__next {
+    .our-team-page-ul-creators-carousel::after,
+    .our-team-page-ul-creators-carousel__next {
       right: -1rem;
     }
     
-    .testimonials-page-carousel::before,
-    .testimonials-page-carousel::after {
+    .our-team-page-ul-creators-carousel::before,
+    .our-team-page-ul-creators-carousel::after {
       content: '';
       z-index: 1;
       background-color:none;
@@ -231,11 +226,10 @@
       pointer-events: none;
     }
     
-    .testimonials-page-carousel::before {
+    .our-team-page-ul-creators-carousel::before {
       background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
     }
     
-    .testimonials-page-carousel::after {
+    .our-team-page-ul-creators-carousel::after {
       background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
     }
-    /*New games carousel*/

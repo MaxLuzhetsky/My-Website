@@ -112,12 +112,7 @@ overflow-y: hidden;
     background-color: none;
   }
   
-  .newgames-carousel__slide:before {
-    content: counter(item);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: auto;
+  
   }
   
   .newgames-carousel__snapper {
