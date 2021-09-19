@@ -1027,7 +1027,13 @@ footer {
 .footer-page-logo {
   align-items: center;
 }
-
+.footer-internet-icons a {
+  padding-right: 25px;
+}
+.footer-internet-icons {
+  display: flex;
+  flex-direction: row;
+}
 .footer-page-logo svg {
    
     display: block;
@@ -1035,10 +1041,13 @@ footer {
     width: 130px;
     height: auto;
     align-self: center;
+    
 }
+
 .InternerIcons svg {
   width: 40px;
   height: 40px;
+  
 }
 .facebookA {
     color: orange;
