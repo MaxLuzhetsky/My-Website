@@ -60,16 +60,8 @@
       margin: auto;
       overflow-x: hidden;
   overflow-y: hidden;
-  min-height: 500px;
-  @media screen and (min-width: 480px) { 
-    width: 480px; 
-  } 
-  @media screen and (min-width: 768px) { 
-    width: 768px; 
-  } 
-  @media screen and (min-width: 1200px) { 
-    width: 1200px; 
-  } 
+  min-height: 550px;
+ 
     }
     
     .our-team-page-ul-creators-carousel__viewport {

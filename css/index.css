@@ -1,43 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito+Sans&display=swap');
 
-  @media  (min-width: 300px) { 
-    .underheader-h2 {
-        font-size: 46px;
-        
-  } 
-  .underheader {
-    max-width:90%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 15px 0 15px;
-    margin: auto;
-}
-}
-  @media  (min-width: 768px) { 
-    .underheader-h2 {
-        font-size: 56px;
-       
-        
-  } 
-  .underheader {
-    max-width:90%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 15px 0 15px;
-    margin: auto;
-}
-}
-  @media  (min-width: 1200px) { 
-    .underheader-h2 {
-        font-size: 76px; 
-        
-  } 
-}
 
+@media screen and (min-width:1200px) {
+    
 
 
 /*for carousel*/
@@ -120,17 +85,12 @@ body {
     margin-right: auto; 
     padding-left: 15px; 
     padding-right: 15px; 
-    @media screen and (min-width: 480px) { 
-        width: 480px; 
-      } 
-      @media screen and (min-width: 768px) { 
-        width: 768px; 
-      } 
-      @media screen and (min-width: 1200px) { 
-        width: 1200px; 
-      } 
+    width: 1200px;
+    height: auto;
+}   
+ 
     
-  }
+  
 
 
   .flex-container { 
@@ -256,7 +216,7 @@ h2 {
     margin: auto;
 }
 .underheader-h2 { 
-    
+    font-size: 56px;
     padding: 0 15px 0 15px;
 
     
@@ -327,9 +287,7 @@ img {
     text-align: center;
     box-sizing: border-box;
 }
-.about-us-column-container h2 {
-    
-}
+
 .about-us-column-icons {
     max-width: 100%;
     box-sizing: border-box;
@@ -530,6 +488,7 @@ overflow-y: hidden;
         
         
         
+        
       }
       
       @media (hover: hover) {
@@ -724,6 +683,7 @@ overflow-y: hidden;
 }
 .our-journer-page-h2 {
     font-size: 60px;
+    
 
 }
 .our-journer-page-numbers {
@@ -810,15 +770,11 @@ overflow-y: hidden;
     height: auto;
 }
 .testimonials-page-h2 {
-    font-size: 66px;
+    font-size: 60px;
     text-align: center;
 }
-.testimonials-icons {
 
-}
-.testimonials-page-pr  {
 
-}
 .internet-icons-contrainer {
     display: flex;
     justify-content: center;
@@ -841,10 +797,14 @@ overflow-y: hidden;
     justify-content: center;
     flex-direction: column;
 }
+.platform-text {
+    width: 70%;
+}
 .platforms-page-h2  {
-    font-size: 66px;
+    font-size: 60px;
     text-align: center;
 }
+
 .platforms-page-p {
     font-family: 'Nunito Sans', sans-serif ;
     font-size: 20px;
@@ -873,7 +833,7 @@ align-self: center;
     text-align: center;
     width: 100%;
     height: auto;
-    padding: 200px 0 200px 0;
+    padding: 90px 0 90px 0;
 }
 .available-platforms-page-platformslist {
     display: flex;
@@ -884,6 +844,7 @@ align-self: center;
     font-size: 60px;
     text-align: center;
     max-width: 90%;
+    
 }
   
 
@@ -927,40 +888,58 @@ align-self: center;
     text-align: center;
 }
 .most-popular-games-page-h2 {
-    font-size: 66px;
+    font-size: 60px;
 }
 .most-popular-games-page-products-title {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .most-popular-games-page-products {
     display: flex;
     flex-direction: row;
-    max-width: 100%;
+    max-width: 1200px;
     max-height: auto;
     padding: 0 40px 0 40px;
     flex-wrap: wrap;
+    width: 100%;
 }
 .most-popular-games-page-product-ul li {
     display: flex;
     flex-direction: row;
 
 }
+.most-popular-games-page-product {
+    width: 33.33%;
+}
 .most-popular-games-page-product-ul-img {
     width: 70px;
     height: 70px;
+    align-self: center;
 }
 .most-popular-games-page-product-info {
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin: 7.5px;
 }
 .most-popular-games-page-product-name-price{
     display: flex;
     flex-direction: row;
+    text-align: left;
+    align-items: flex-start;
+    margin: 0;
+}
+.most-popular-games-page-product-svg {
+    color: white;
+    height:  25px;
+    width: 25px;
+    align-self: center;
+    padding-right: 5px;
 }
 .most-popular-games-page-discription {
     margin:0;
+    text-align: left;
 } 
 .join-the-game-page {
     background-image: url(../images/productlogos/backgrounds/background13.png);
@@ -1041,4 +1020,5 @@ footer {
     max-width: 120px;
     max-height: 120px;
     align-self: center;
+}
 }
