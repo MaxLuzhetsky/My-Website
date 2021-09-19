@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito+Sans&display=swap');
 
 
+@media screen and (min-width:768px) {
+    
 
-@media screen and (min-width: 360px) {
-  
 
 /*for carousel*/
 @keyframes tonext {
@@ -85,7 +85,7 @@ body {
     margin-right: auto; 
     padding-left: 15px; 
     padding-right: 15px; 
-    width: 360px;
+    width: 768px;
     height: auto;
 }   
  
@@ -121,7 +121,10 @@ section {
     flex-direction: column;
     box-sizing: border-box;
 }
-
+.most-popular-games-page-productlist img {
+    width: 70px;
+    height: 70px;
+}
 .header-elements {
     display: flex;
     justify-content: space-between;
@@ -154,7 +157,7 @@ header {
     height: auto;
     padding: 30px 15px 30px 15px;
     margin: auto;
-   
+    max-width: 1200px;
     align-items: stretch;
 }
 nav {
@@ -213,7 +216,7 @@ h2 {
     margin: auto;
 }
 .underheader-h2 { 
-    font-size: 46px;
+    font-size: 56px;
     padding: 0 15px 0 15px;
 
     
@@ -322,11 +325,11 @@ img {
     padding: 90px 0 90px 0;
     width: 100%;
     height: auto;
-    
+    max-height: 980px;
     
 }
 .top-games-page-h2 {
-    font-size: 56px;
+    font-size: 60px;
     margin:0;
 }
 .top-games-page h2 , h3 , span {
@@ -354,11 +357,11 @@ img {
 }
 .top-games-page-gamelist-info {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     
     align-items: flex-start;
-    padding: 35px 43px 35px 43px;
-    width: 100%;
+    padding: 40px 52px 40px 52px;
+    width: 60%;
     height: auto;
 }
 .game-list-h2 { 
@@ -384,13 +387,13 @@ img {
     height: auto;
     box-sizing: border-box;
     align-self: center;
-    min-width: 150px;
-    min-height: 75px;
+    min-width: 300px;
+    min-height: 150px;
     
 }
 .button-shop {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
 }
 .top-games-page-gamelist + .gameslist-buttons-shop {
@@ -610,7 +613,7 @@ overflow-y: hidden;
     align-items: flex-start;
 }
 .time-flies-page-h2 {
-    font-size: 56px;
+    font-size: 76px;
     
     font-stretch:100%
 }
@@ -642,7 +645,7 @@ overflow-y: hidden;
     padding: 90px 0 100px 0;
 }
 .new-mobile-games-page-h2-tittle {
-    font-size: 56px;
+    font-size: 60px;
     text-align: center;
 }
 .new-mobile-games-page-h2 {
@@ -661,7 +664,7 @@ overflow-y: hidden;
 }
 .new-mobile-games-page-game-img {
     align-self: center;
-    min-width: 300px;
+    min-width: 360px;
     height: auto;
 }
 .new-mobile-games-page-game-info {
@@ -669,11 +672,6 @@ overflow-y: hidden;
     justify-content: flex-start;
     flex-direction: column;
 }
-.new-mobile-games-page-game-buttons {
-  align-self: center;
-  
-}
-
 .our-journer-page {
     background-image: url(../images/productlogos/backgrounds/background6.png);
     background-size: cover;
@@ -684,7 +682,7 @@ overflow-y: hidden;
     height: auto;
 }
 .our-journer-page-h2 {
-    font-size: 56px;
+    font-size: 60px;
     
 
 }
@@ -694,7 +692,7 @@ overflow-y: hidden;
     height: auto;
 }
 .our-journer-page-pn {
-    font-size: 24px;
+    font-size: 40px;
     font-family: 'Fredoka One', cursive ;
     
 }
@@ -734,11 +732,11 @@ overflow-y: hidden;
 
 }
 .coming-soon-games-page-h2  {
-    font-size:56px;
+    font-size:60px;
 }
 .coming-soon-contrainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: auto;
     max-width: 1200px;
 }
@@ -772,7 +770,7 @@ overflow-y: hidden;
     height: auto;
 }
 .testimonials-page-h2 {
-    font-size: 56px;
+    font-size: 60px;
     text-align: center;
 }
 
@@ -803,7 +801,7 @@ overflow-y: hidden;
     width: 70%;
 }
 .platforms-page-h2  {
-    font-size: 56px;
+    font-size: 60px;
     text-align: center;
 }
 
@@ -843,7 +841,7 @@ align-self: center;
     justify-content: center;
 }
 .available-platforms-page-h2  {
-    font-size: 56px;
+    font-size: 60px;
     text-align: center;
     max-width: 90%;
     
@@ -858,7 +856,7 @@ align-self: center;
     padding: 90px 0 90px 0;
 }
 .our-team-page-h2 {
-    font-size: 56px;
+    font-size: 60px;
     text-align: center;
 }
 .our-team-page-icon {
@@ -883,18 +881,14 @@ align-self: center;
 }
 .most-popular-games-page {
     background-image: url(../images/productlogos/backgrounds/background12.png);
-    background-size: cover;
+    
     width: 100%;
     height: auto;
     padding: 80px 0 90px 0;
     text-align: center;
 }
-.most-popular-games-page-productlist img {
-  width: 70px;
-  height: 70px;
-}
 .most-popular-games-page-h2 {
-    font-size: 56px;
+    font-size: 60px;
 }
 .most-popular-games-page-products-title {
     display: flex;
@@ -903,25 +897,20 @@ align-self: center;
 }
 .most-popular-games-page-products {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     max-width: 1200px;
     max-height: auto;
     padding: 0 40px 0 40px;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: flex-start;
-    align-items: flex-start;
-    box-sizing: border-box;
 }
-
-
 .most-popular-games-page-product-ul li {
     display: flex;
     flex-direction: row;
-box-sizing: border-box;
+
 }
 .most-popular-games-page-product {
-    width: 90%;
+    width: 33.33%;
 }
 .most-popular-games-page-product-ul-img {
     width: 70px;
@@ -954,30 +943,28 @@ box-sizing: border-box;
 } 
 .join-the-game-page {
     background-image: url(../images/productlogos/backgrounds/background13.png);
-    background-size: cover;
+    
     width: 100%;
     height: auto;
     padding: 100px 0 100px 0;
 }
 .join-the-game-page-h2{
-    font-size: 56px;
+    font-size: 60px;
     text-align: left;
 }
 .join-form-container {
     display: flex;
     justify-content: flex-start;
-    padding: 0 15px 0 15px;
-    
+    padding: 0 40px 0 40px;
 }
 .join-form {
-    width: 80%;
+    width: 40%;
     height: auto;
     padding: 0 15px 0 15px;
-   
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin: 0;
 }
 .join-form-input {
     border: none;
@@ -985,7 +972,6 @@ box-sizing: border-box;
     height: 51px;
     border-radius: 15px;
     padding: 0 20px 0 20px;
-    min-width: 200px;
 }
 .join-form-button {
     border: none;
@@ -998,7 +984,6 @@ box-sizing: border-box;
     background-color: rgb(218, 50, 101);
     padding : 16px 48px 16px 48px ;
     margin-top: 24px;
-    min-width: 200px;
 }
 .space-page {
     padding: 260px 0 260px 0;
@@ -1013,48 +998,46 @@ box-sizing: border-box;
 }
 footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 .footer-page-nav-ul-buttons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .footer-page-nav-ul-buttons li {
     display: flex;
     flex-direction: column;
 }
 .footer-page-logo {
-  align-items: center;
-}
-.footer-internet-icons a {
-  padding-right: 25px;
-}
-.footer-internet-icons {
-  display: flex;
-  flex-direction: row;
-}
-.footer-page-logo svg {
-   
-    display: block;
-    justify-content: left;
-    width: 130px;
+    align-items: center;
+  }
+.footer-container {
+    width: 100%;
     height: auto;
-    align-self: center;
-    
-}
-
+    padding: 100px 15px 80px 15px;
+}  
+.footer-page-logo svg {
+     
+      display: block;
+      justify-content: left;
+      width: 130px;
+      height: auto;
+      align-self: center;
+  }
+.InternerIcons {
+    margin-right: 15px;
+  }
 .InternerIcons svg {
-  width: 40px;
-  height: 40px;
-  
-}
+    width: 40px;
+    height: 40px;
+  }
 .facebookA {
     color: orange;
 }
 .gameslist-buttons-shop {
-    width: 120px;
-    height: auto;
+    width: 135px;
+    height: 42px;
 }
 .testimonials-icons {
     max-width: 120px;
