@@ -410,7 +410,7 @@ img {
         height: auto;
         min-height: 800px;
         position: relative;
-        
+        max-height: 700px;
         filter: drop-shadow(0 0 10px #0003);
         perspective: 100px;
         padding: 0 40px 0 40px;
@@ -484,6 +484,7 @@ overflow-y: hidden;
         scroll-snap-align: center;
         padding: 50px 70px 50px 70px;
         display: flex;
+        flex-direction: row;
         
         
         
