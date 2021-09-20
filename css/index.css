@@ -139,13 +139,14 @@ height:auto;
     width: 130px;
     height: auto;
 }
-.nav {
+.menu__box-default{
     display: flex;
-    flex-direction: row;
+
 }
-.header-nav-buttons {
-    justify-content: center;
+.menu__item {
+    color: white;
 }
+
 .nav li {
     padding-left: 10px;
 }
@@ -220,6 +221,10 @@ h2 {
     padding: 0 15px 0 15px;
 
     
+}
+.underheader-h3{
+    text-align: left;
+    padding: 0 15px 0 15px;
 }
 .about-us-page {
     background-image: url(../images/productlogos/backgrounds/background2.png);
@@ -619,9 +624,10 @@ overflow-y: hidden;
     font-stretch:100%
 }
 .time-flies-page-container-text {
-    
-    text-align: left;
+    margin-left: 0;
+    align-self: flex-start;
     max-width:  58.3333%;
+    text-align: center;
 }
 .time-flies-page-learn-more-bttn {
     background-color: rgb(249, 186, 56);
@@ -632,8 +638,8 @@ overflow-y: hidden;
     padding-right: 48px;
     padding-top: 16px;
     min-height: 40px;
+    
     align-self: center;
-    text-align: center;
     font-family: 'Fredoka One', cursive;
     font-size:15px;
 
@@ -1045,4 +1051,5 @@ footer {
     max-height: 120px;
     align-self: center;
 }
+
 }

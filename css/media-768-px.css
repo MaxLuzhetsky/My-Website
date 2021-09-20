@@ -132,6 +132,7 @@ section {
     align-items: center;
     width:100%;
 height:auto;
+box-sizing: border-box;
 }
 .logo {
     display: block;
@@ -139,6 +140,7 @@ height:auto;
     width: 130px;
     height: auto;
 }
+
 .nav {
     display: flex;
     flex-direction: row;
@@ -157,12 +159,10 @@ header {
     height: auto;
     padding: 30px 15px 30px 15px;
     margin: auto;
-    max-width: 1200px;
+    max-width: 768px;
     align-items: stretch;
 }
-nav {
-    display: flex;
-}
+
 p,
 h3,
 h4,
@@ -383,7 +383,7 @@ img {
     
 }
 .game-icon {
-    width: 100%;
+    width: 70%;
     height: auto;
     box-sizing: border-box;
     align-self: center;
@@ -437,7 +437,7 @@ overflow-y: hidden;
         list-style: none;
         list-style-type: disc;
         max-width: 1200px;
-        max-height: 1100px;
+        max-height: 700px;
         margin-bottom: 0;
         margin-top: 0;
         padding: 0;
@@ -451,6 +451,7 @@ overflow-y: hidden;
         background-color: rgb(20, 56, 93);
         counter-increment: item;
         display: flex;
+
         
       }
       .newgames-carousel__slide {
@@ -484,7 +485,7 @@ overflow-y: hidden;
         scroll-snap-align: center;
         padding: 50px 70px 50px 70px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         
         
         
@@ -618,9 +619,10 @@ overflow-y: hidden;
     font-stretch:100%
 }
 .time-flies-page-container-text {
-    
-    text-align: left;
+    margin-left: 0;
+    align-self: flex-start;
     max-width:  58.3333%;
+    text-align: center;
 }
 .time-flies-page-learn-more-bttn {
     background-color: rgb(249, 186, 56);
@@ -1025,6 +1027,9 @@ footer {
       height: auto;
       align-self: center;
   }
+.footer-span {
+    margin-top: 10px;
+} 
 .InternerIcons {
     margin-right: 15px;
   }
@@ -1044,4 +1049,11 @@ footer {
     max-height: 120px;
     align-self: center;
 }
+
+.menu__item {
+    color: white;
+}
+.menu__box-default {
+    display: none;
+  }
 }
