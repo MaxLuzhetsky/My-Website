@@ -1054,4 +1054,7 @@ footer {
 .menu__btn {
     display: none;
 }
+.menu__box {
+    display: none;
+}
 }
