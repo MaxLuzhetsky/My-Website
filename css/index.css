@@ -1051,5 +1051,7 @@ footer {
     max-height: 120px;
     align-self: center;
 }
-
+.menu__btn {
+    display: none;
+}
 }
