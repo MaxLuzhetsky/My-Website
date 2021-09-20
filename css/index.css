@@ -219,6 +219,7 @@ h2 {
 .underheader-h2 { 
     font-size: 56px;
     padding: 0 15px 0 15px;
+    text-align: left;
 
     
 }
