@@ -113,13 +113,7 @@
       background-color: none;
     }
     
-    .testimonials-page-carousel__slide:before {
-      content: counter(item);
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin: auto;
-    }
+   
     
     .testimonials-page-carousel__snapper {
       position: absolute;

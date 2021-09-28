@@ -109,6 +109,7 @@
      
       
     }
+
     
    
     
@@ -182,7 +183,10 @@
       transition: transform 0.1s;
       margin: auto;
     }
-    
+    .available-platforms-page-carousel::before,
+    .available-platforms-page-carousel::after{
+      display: none;
+    }
     .available-platforms-page-carousel::before,
     .available-platforms-page-carousel::after,
     .available-platforms-page-carousel__prev,
