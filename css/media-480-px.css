@@ -1063,6 +1063,20 @@ box-sizing: border-box;
     padding: 260px 0 260px 0;
     background-image: url(../images/productlogos/backgrounds/background14.png);
 }
+.space-page-container {
+  background-color: brown;
+  border-radius: 25px;
+  padding: 15px 0 15px 0;
+  display: none;
+}
+..game-container {
+  padding: 20px 30px;
+  position: relative;
+  margin: auto;
+  height: 350px;
+  width: 90%;
+  
+}
 .footer-page {
     background-image: url(../images/productlogos/backgrounds/backgroundfooter.webp);
     background-size: cover;

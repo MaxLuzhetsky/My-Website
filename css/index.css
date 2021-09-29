@@ -999,8 +999,20 @@ align-self: center;
     margin-top: 24px;
 }
 .space-page {
-    padding: 260px 0 260px 0;
+    padding: 130px 0 130px 0;
     background-image: url(../images/productlogos/backgrounds/background14.png);
+}
+.space-page-container {
+    background-color: brown;
+    border-radius: 25px;
+    padding: 15px 0 15px 0;
+    display: block;
+}
+
+.space-page-container h1 {
+    text-align: center;
+    align-self: center;
+    font-size: 30px;
 }
 .footer-page {
     background-image: url(../images/productlogos/backgrounds/backgroundfooter.webp);
