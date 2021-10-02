@@ -125,18 +125,7 @@
       
     }
     
-    @media (hover: hover) {
-      .our-team-page-ul-creators-carousel__snapper {
-        animation-name: slide;
-        animation-timing-function: ease;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-      }
     
-      .our-team-page-ul-creators-carousel__slide:last-child .carousel__snapper {
-        animation-name: tostart, snap;
-      }
-    }
     
     @media (prefers-reduced-motion: reduce) {
       .our-team-page-ul-creators-carousel__snapper {

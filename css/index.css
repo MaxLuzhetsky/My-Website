@@ -88,6 +88,10 @@ body {
     width: 1200px;
     height: auto;
 }   
+.game-canvas {
+    width: 400px;
+    height: 400px;
+}
  
     
   

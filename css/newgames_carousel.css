@@ -130,18 +130,7 @@ overflow-y: hidden;
     
   }
   
-  @media (hover: hover) {
-    .newgames-carousel__snapper {
-      animation-name: tonext, snap;
-      animation-timing-function: ease;
-      animation-duration: 5s;
-      animation-iteration-count: infinite;
-    }
   
-    .newgames-carousel__slide:last-child .carousel__snapper {
-      animation-name: tostart, snap;
-    }
-  }
   
   @media (prefers-reduced-motion: reduce) {
     .newgames-carousel__snapper {

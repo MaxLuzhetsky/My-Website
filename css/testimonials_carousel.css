@@ -132,18 +132,7 @@
       
     }
     
-    @media (hover: hover) {
-      .testimonials-page-carousel__snapper {
-        animation-name: tonext, snap;
-        animation-timing-function: ease;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-      }
     
-      .testimonials-page-carousel__slide:last-child .carousel__snapper {
-        animation-name: tostart, snap;
-      }
-    }
     
     @media (prefers-reduced-motion: reduce) {
       .testimonials-page-carousel__snapper {

@@ -1,0 +1,6 @@
+#space-canvas {
+    width: 420px;
+    height: 360px;
+    background-image: url(../images/canvas/810d7f716a950a63a9c0dba6aacb1a73.gif);
+    transform: rotate(180deg);
+}

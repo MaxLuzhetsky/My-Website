@@ -133,18 +133,7 @@
       
     }
     
-    @media (hover: hover) {
-      .available-platforms-page-carousel__snapper {
-        animation-name: tonext, snap;
-        animation-timing-function: ease;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-      }
     
-      .available-platforms-page-carousel__slide:last-child .carousel__snapper {
-        animation-name: tostart, snap;
-      }
-    }
     
     @media (prefers-reduced-motion: reduce) {
       .available-platforms-page-carousel__snapper {
