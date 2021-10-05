@@ -7,9 +7,9 @@ let hit = new Audio();
 let omn = new Audio();
 let ambient = new Audio();
 
-omn.src = "../audio/punch.mp3"
-hit.src = "../audio/crash.mp3"
-ambient.src = "../audio/bike-race.mp3"
+omn.src = "audio/punch.mp3"
+hit.src = "audio/crash.mp3"
+ambient.src = "audio/bike-race.mp3"
 let snake = {
     x: 160,
     y: 160,
