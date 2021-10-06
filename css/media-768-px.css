@@ -1069,4 +1069,25 @@ footer {
 .menu__box-default {
     display: none;
   }
+  .span-dot-big , .span-dots{
+    font-size: 56px;
+    font-family: 'Fredoka' , solid;
+    text-align: center;
+    align-self: center;
 }
+#game__item{
+    display: none;
+  }
+}
+.our-team-page-ul-creators-carousel__slide {
+    position: relative;
+    flex: 0 0 100%;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    counter-increment: item;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+  }

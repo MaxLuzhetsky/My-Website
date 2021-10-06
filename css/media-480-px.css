@@ -85,7 +85,7 @@ body {
     margin-right: auto; 
     padding-left: 15px; 
     padding-right: 15px; 
-    width: 300px;
+    width: 90%;
     height: auto;
    
 }   
@@ -271,7 +271,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 25%;
+    max-width: 80%;
     min-width: 170px;
     min-height: 17px;
     height: auto;
@@ -619,7 +619,7 @@ overflow-y: hidden;
 }
 .time-flies-page-container-text {
   
-  max-width:  58.3333%;
+  max-width:  80%;
   text-align: center;
 }
 .time-flies-page-learn-more-bttn {
@@ -734,7 +734,7 @@ overflow-y: hidden;
     flex-direction: row;
     text-align: center;
     justify-content: center;
-    width: 90%;
+    width: 100%;
     height: auto;
 }
 .countofgames {
@@ -757,6 +757,9 @@ overflow-y: hidden;
     display: flex;
     flex-direction: row;
 }
+.coming-soon-games-newgameinfo {
+  margin: 0 10px 0 0;
+}
 .comingsoon-contrainer {
     min-width: 350px;
     min-height: 450px;
@@ -766,7 +769,7 @@ overflow-y: hidden;
 
 }
 .coming-soon-games-page-h2  {
-    font-size:56px;
+    font-size:46px;
 }
 .coming-soon-contrainer {
     display: flex;
@@ -775,7 +778,7 @@ overflow-y: hidden;
     max-width: 1200px;
     justify-content: center;
 }
-.comingsoon-contrainer {
+.coming-soon-contrainer {
   align-self:center;
 }
 
@@ -811,7 +814,7 @@ overflow-y: hidden;
     height: auto;
 }
 .testimonials-page-h2 {
-    font-size: 46px;
+    font-size: 40px;
     text-align: left;
 }
 
@@ -897,6 +900,7 @@ align-self: center;
     height: auto;
     padding: 90px 0 90px 0;
 }
+
 .our-team-page-h2 {
     font-size: 56px;
     text-align: center;
@@ -960,7 +964,7 @@ align-self: center;
     flex-direction: column;
     max-width: 1200px;
     max-height: auto;
-    padding: 0 40px 0 40px;
+    padding: 0 40px 0 0;
     flex-wrap: wrap;
     width: 100%;
     justify-content: flex-start;
@@ -1088,6 +1092,8 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .footer-page-nav-ul-buttons {
     display: flex;
@@ -1097,15 +1103,23 @@ footer {
     display: flex;
     flex-direction: column;
 }
-.footer-page-logo {
-  align-items: center;
+
+.footer-svg{
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
 }
 .footer-internet-icons a {
-  padding-right: 25px;
+ padding:0 10px 0 0;
+ margin: auto;
 }
 .footer-internet-icons {
   display: flex;
   flex-direction: row;
+  width: 25%;
 }
 .footer-page-logo svg {
    
@@ -1183,7 +1197,7 @@ footer {
     top: 0;
     left: -100%;
     width: 300px;
-    height: 350px;
+    height: 400px;
     margin: 0;
     padding: 80px 0;
     list-style: none;
@@ -1250,4 +1264,13 @@ footer {
   align-self: center;
   text-align: center;
   margin: 0;
-}      
+}  
+.span-dot-big , .span-dots{
+  font-size: 56px;
+  font-family: 'Fredoka' , solid;
+  text-align: center;
+  align-self: center;
+}
+#game__item{
+  display: none;
+}

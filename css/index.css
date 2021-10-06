@@ -149,6 +149,7 @@ height:auto;
 }
 .menu__item {
     color: white;
+    font-size: 15px;
 }
 
 .nav li {
@@ -205,12 +206,14 @@ h2 {
     max-width: 200px;
 }
 .underheader-container {
-    width: 70%;
+    width: 80%;
     height: auto;
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
      flex-direction: column;
     padding: 170px 0 190px 0;
+    margin: 0;
 }
 .underheader {
     max-width:60%;
@@ -219,7 +222,7 @@ h2 {
     justify-content: flex-start;
     flex-direction: column;
     padding: 0 15px 0 15px;
-    margin: auto;
+   text-align: left;
 }
 .underheader-h2 { 
     font-size: 56px;
@@ -1091,5 +1094,11 @@ footer {
 }
 .menu__box {
     display: none;
+}
+.span-dot-big , .span-dots{
+    font-size: 56px;
+    font-family: 'Fredoka' , solid;
+    text-align: center;
+    align-self: center;
 }
 }
