@@ -815,7 +815,7 @@ overflow-y: hidden;
 }
 .testimonials-page-h2 {
     font-size: 40px;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -854,6 +854,7 @@ overflow-y: hidden;
 .platforms-page-p {
     font-family: 'Nunito Sans', sans-serif ;
     font-size: 20px;
+    text-shadow: rgb(0, 0, 0) 1px 1px 2px
 }
 .platforms-page-contacts-button {
     background-color: rgb(249, 186, 56);
@@ -889,6 +890,7 @@ align-self: center;
     font-size: 56px;
     text-align: center;
     max-width: 90%;
+    margin: auto;
     
 }
   
@@ -1265,12 +1267,16 @@ footer {
   text-align: center;
   margin: 0;
 }  
-.span-dot-big , .span-dots{
+.span-dot-big {
   font-size: 56px;
   font-family: 'Fredoka' , solid;
   text-align: center;
   align-self: center;
 }
+.span-dot-big-container{
+  text-align: center;
+}
+
 #game__item{
   display: none;
 }

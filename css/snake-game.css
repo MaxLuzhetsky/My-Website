@@ -1,8 +1,14 @@
 
-
+body{
+    margin: 0;
+    padding: 0;
+}
 .footer-container {
     padding: 30px 15px 30px 15px;
    
+}
+.footer-page{
+    padding-bottom: 23px;
 }
 canvas {
     align-self: center;

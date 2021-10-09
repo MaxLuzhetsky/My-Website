@@ -212,11 +212,11 @@ h2 {
     justify-content: flex-start;
     align-items: flex-start;
      flex-direction: column;
-    padding: 170px 0 190px 0;
+    padding: 150px 0 150px 0;
     margin: 0;
 }
 .underheader {
-    max-width:60%;
+    max-width:70%;
     height: auto;
     display: flex;
     justify-content: flex-start;
@@ -225,7 +225,7 @@ h2 {
    text-align: left;
 }
 .underheader-h2 { 
-    font-size: 56px;
+    font-size: 76px;
     padding: 0 15px 0 15px;
     text-align: left;
 
@@ -1045,6 +1045,9 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    min-height: 20px;
 }
 .footer-page-nav-ul-buttons {
     display: flex;
@@ -1055,8 +1058,33 @@ footer {
     flex-direction: column;
 }
 .footer-page-logo {
-    align-items: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+    margin:0;
+    width: 30%;
   }
+  .footer-svg{
+      align-self: flex-start;
+  }
+  .footer-internet-icons{
+      display: flex;
+      justify-content: flex-start;
+      margin: 0;
+  }
+.footer-internet-icons a  {
+    padding-right: 10px;
+  }
+  .footer-page-buttons {
+      margin: 0;
+  }
+ .footer-contacts{
+     width: 80%;
+     display: flex;
+     justify-content: space-between;
+     padding-top: 20px;
+ } 
 .footer-container {
     width: 100%;
     height: auto;
@@ -1068,8 +1096,25 @@ footer {
       justify-content: left;
       width: 130px;
       height: auto;
-      align-self: center;
+      align-self: flex-start;
   }
+.footer-nav-li a{
+   padding-bottom: 10px;
+}
+.footer-nav{
+    padding-left: 0;
+}
+.footer-page-nav-ul-buttons li {
+   padding-left: 25px;
+}
+.footer-page-h2-nav {
+    color:orange;
+    font-size:24px;
+    font-family:'Nunito Sans', sans-serif;
+}
+.footer-page-p{
+    text-align: left;
+}
 .InternerIcons {
     margin-right: 15px;
   }

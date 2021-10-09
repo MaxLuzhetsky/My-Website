@@ -682,6 +682,7 @@ overflow-y: hidden;
     text-align: center;
     width: 100%;
     height: auto;
+    justify-content: center;
 }
 .our-journer-page-h2 {
     font-size: 60px;
@@ -1069,12 +1070,19 @@ footer {
 .menu__box-default {
     display: none;
   }
-  .span-dot-big , .span-dots{
+  .span-dot-big {
     font-size: 56px;
     font-family: 'Fredoka' , solid;
     text-align: center;
     align-self: center;
-}
+  }
+  .span-dots{
+    font-size: 56px;
+    font-family: 'Fredoka' , solid;
+    text-align: center;
+    align-self: center;
+    margin: auto;
+  }
 #game__item{
     display: none;
   }
