@@ -346,6 +346,10 @@ img {
     font-size: 60px;
     margin:0;
 }
+.top-games-page-title{
+    align-items: center;
+    text-align: center;
+}
 .top-games-page h2 , h3 , span {
     text-align: center;
     align-items: center;
@@ -654,6 +658,11 @@ overflow-y: hidden;
     max-width:  58.3333%;
     text-align: center;
 }
+.time-flies-page-p {
+    text-align: center;
+    font-family:'Nunito Sans', sans-serif; 
+    padding-bottom: 10px;
+}
 .time-flies-page-learn-more-bttn {
     background-color: rgb(249, 186, 56);
     font-family: 'Nunito Sans', sans-serif;
@@ -703,6 +712,11 @@ overflow-y: hidden;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    text-align: left;
+    padding-left: 25px;
+}
+.new-mobile-games-page-game-info h2 , p {
+    text-align: left;
 }
 .our-journer-page {
     background-image: url(../images/productlogos/backgrounds/background6.png);
@@ -722,6 +736,13 @@ overflow-y: hidden;
     padding: 0 15px 15px 0;
     width: 30%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.our-journer-page-numbers p , span{
+ text-align: center;
 }
 .our-journer-page-pn {
     font-size: 40px;
@@ -1028,12 +1049,15 @@ align-self: center;
     padding: 15px 0 15px 0;
     display: block;
 }
-
+.space-page-container p{
+  text-align: center;
+}
 .space-page-container h1 {
     text-align: center;
     align-self: center;
     font-size: 30px;
 }
+
 .footer-page {
     background-image: url(../images/productlogos/backgrounds/backgroundfooter.webp);
     background-size: cover;

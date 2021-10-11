@@ -40,7 +40,7 @@ function loop() {
     // Очищаем игровое поле
     context.clearRect(0, 0, canvas.width, canvas.height);
     ambient.play();
-    ambient.volume = 0.5;
+    ambient.volume = 0.2;
     // Двигаем змейку с нужной скоростью
     snake.x += snake.dx;
     snake.y += snake.dy;
@@ -78,6 +78,7 @@ function loop() {
         // увеличиваем длину змейки
         snake.maxCells++;
         omn.play();
+        omn.volume = 0.2;
         // Рисуем новое яблочко
         // Помним, что размер холста у нас 400x400, при этом он разбит на ячейки — 25 в каждую сторону
         apple.x = getRandomInt(0, 25) * grid;
@@ -90,6 +91,7 @@ function loop() {
         if (cell.x === snake.cells[i].x && cell.y === snake.cells[i].y) {
           // Задаём стартовые параметры основным переменным
           hit.play();
+          hit.volume = 0.2;
           snake.x = 160;
           snake.y = 160;
           snake.cells = [];

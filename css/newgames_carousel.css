@@ -169,7 +169,11 @@ overflow-y: hidden;
     transition: transform 0.1s;
     margin: auto;
   }
-  
+  .newgames-carousel::before,
+  .newgames-carousel::after{
+    display: none;
+  }
+
   .newgames-carousel::before,
   .newgames-carousel::after,
   .newgames-carousel__prev,

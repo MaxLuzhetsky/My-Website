@@ -164,7 +164,10 @@
       transition: transform 0.1s;
       margin: auto;
     }
-    
+    .our-team-page-ul-creators-carousel::before,
+    .our-team-page-ul-creators-carousel::after{
+      display: none;
+    }
     .our-team-page-ul-creators-carousel::before,
     .our-team-page-ul-creators-carousel::after,
     .our-team-page-ul-creators-carousel__prev,
